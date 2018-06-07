@@ -3,7 +3,1928 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Modules", "Custom Modules\Custom Modules.csproj", "{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interact With Workflow", "Interact With Workflow\Interact With Workflow.csproj", "{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Definitions", "Definitions", "{5E21859F-D416-4FD7-AC73-C72081DD1C2F}"
+	ProjectSection(SolutionItems) = preProject
+		Definitions\_all.d.ts = Definitions\_all.d.ts
+		Definitions\analytics-event-relay.d.ts = Definitions\analytics-event-relay.d.ts
+		Definitions\arcgis-js-api.d.ts = Definitions\arcgis-js-api.d.ts
+		Definitions\Awab.d.ts = Definitions\Awab.d.ts
+		Definitions\BaseMap.Rest.d.ts = Definitions\BaseMap.Rest.d.ts
+		Definitions\bluebird-global.d.ts = Definitions\bluebird-global.d.ts
+		Definitions\bluebird.d.ts = Definitions\bluebird.d.ts
+		Definitions\bridge.d.ts = Definitions\bridge.d.ts
+		Definitions\caja-html-sanitizer.d.ts = Definitions\caja-html-sanitizer.d.ts
+		Definitions\Chart.Rest.d.ts = Definitions\Chart.Rest.d.ts
+		Definitions\Charting.AMD.d.ts = Definitions\Charting.AMD.d.ts
+		Definitions\Charting.d.ts = Definitions\Charting.d.ts
+		Definitions\Charting.Infrastructure.AMD.d.ts = Definitions\Charting.Infrastructure.AMD.d.ts
+		Definitions\Charting.Infrastructure.d.ts = Definitions\Charting.Infrastructure.d.ts
+		Definitions\desktop.ini = Definitions\desktop.ini
+		Definitions\Documents.Rest.d.ts = Definitions\Documents.Rest.d.ts
+		Definitions\dojo.d.ts = Definitions\dojo.d.ts
+		Definitions\Essentials.AMD.d.ts = Definitions\Essentials.AMD.d.ts
+		Definitions\Essentials.d.ts = Definitions\Essentials.d.ts
+		Definitions\FileSystem.d.ts = Definitions\FileSystem.d.ts
+		Definitions\FileWriter.d.ts = Definitions\FileWriter.d.ts
+		Definitions\Framework.AMD.d.ts = Definitions\Framework.AMD.d.ts
+		Definitions\Framework.d.ts = Definitions\Framework.d.ts
+		Definitions\Framework.UI.AMD.d.ts = Definitions\Framework.UI.AMD.d.ts
+		Definitions\Framework.UI.d.ts = Definitions\Framework.UI.d.ts
+		Definitions\globalize.d.ts = Definitions\globalize.d.ts
+		Definitions\gvhsdk.d.ts = Definitions\gvhsdk.d.ts
+		Definitions\hammerjs.d.ts = Definitions\hammerjs.d.ts
+		Definitions\jquery.cleditor.d.ts = Definitions\jquery.cleditor.d.ts
+		Definitions\jquery.colorpicker.d.ts = Definitions\jquery.colorpicker.d.ts
+		Definitions\JQuery.d.ts = Definitions\JQuery.d.ts
+		Definitions\jqueryui.d.ts = Definitions\jqueryui.d.ts
+		Definitions\jsapi_v310.js.d.ts = Definitions\jsapi_v310.js.d.ts
+		Definitions\jsapi_v311.js.d.ts = Definitions\jsapi_v311.js.d.ts
+		Definitions\jsapi_v34.js.d.ts = Definitions\jsapi_v34.js.d.ts
+		Definitions\jsapi_v35.js.d.ts = Definitions\jsapi_v35.js.d.ts
+		Definitions\jsapi_v36.js.d.ts = Definitions\jsapi_v36.js.d.ts
+		Definitions\jsapi_v37.js.d.ts = Definitions\jsapi_v37.js.d.ts
+		Definitions\jsapi_v38.js.d.ts = Definitions\jsapi_v38.js.d.ts
+		Definitions\jsapi_v39.js.d.ts = Definitions\jsapi_v39.js.d.ts
+		Definitions\jszip.d.ts = Definitions\jszip.d.ts
+		Definitions\kendo.all.d.ts = Definitions\kendo.all.d.ts
+		Definitions\LayerList.Rest.d.ts = Definitions\LayerList.Rest.d.ts
+		Definitions\LayerTheme.Rest.d.ts = Definitions\LayerTheme.Rest.d.ts
+		Definitions\Loader.d.ts = Definitions\Loader.d.ts
+		Definitions\Management.d.ts = Definitions\Management.d.ts
+		Definitions\Management.Infrastructure.d.ts = Definitions\Management.Infrastructure.d.ts
+		Definitions\Mapping.Charting.d.ts = Definitions\Mapping.Charting.d.ts
+		Definitions\Mapping.Infrastructure.AMD.d.ts = Definitions\Mapping.Infrastructure.AMD.d.ts
+		Definitions\Mapping.Infrastructure.d.ts = Definitions\Mapping.Infrastructure.d.ts
+		Definitions\modernizr.d.ts = Definitions\modernizr.d.ts
+		Definitions\moment-node.d.ts = Definitions\moment-node.d.ts
+		Definitions\moment-timezone.d.ts = Definitions\moment-timezone.d.ts
+		Definitions\moment.d.ts = Definitions\moment.d.ts
+		Definitions\Phonegap.d.ts = Definitions\Phonegap.d.ts
+		Definitions\remarkable.d.ts = Definitions\remarkable.d.ts
+		Definitions\rx-lite.d.ts = Definitions\rx-lite.d.ts
+		Definitions\rx.async-lite.d.ts = Definitions\rx.async-lite.d.ts
+		Definitions\rx.backpressure-lite.d.ts = Definitions\rx.backpressure-lite.d.ts
+		Definitions\rx.binding-lite.d.ts = Definitions\rx.binding-lite.d.ts
+		Definitions\rx.coincidence-lite.d.ts = Definitions\rx.coincidence-lite.d.ts
+		Definitions\rx.lite.d.ts = Definitions\rx.lite.d.ts
+		Definitions\rx.time-lite.d.ts = Definitions\rx.time-lite.d.ts
+		Definitions\ServiceDiscovery.Rest.d.ts = Definitions\ServiceDiscovery.Rest.d.ts
+		Definitions\string-ext.d.ts = Definitions\string-ext.d.ts
+		Definitions\TimeSlider.Rest.d.ts = Definitions\TimeSlider.Rest.d.ts
+		Definitions\WeakMap.d.ts = Definitions\WeakMap.d.ts
+		Definitions\WebkitWindow.d.ts = Definitions\WebkitWindow.d.ts
+		Definitions\XSockets.d.ts = Definitions\XSockets.d.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".bin", ".bin", "{DA65AA5F-0094-49F4-B1A3-621A7CB45E04}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\.bin\acorn = node_modules\.bin\acorn
+		node_modules\.bin\acorn.cmd = node_modules\.bin\acorn.cmd
+		node_modules\.bin\atob = node_modules\.bin\atob
+		node_modules\.bin\atob.cmd = node_modules\.bin\atob.cmd
+		node_modules\.bin\color-support = node_modules\.bin\color-support
+		node_modules\.bin\color-support.cmd = node_modules\.bin\color-support.cmd
+		node_modules\.bin\eslint = node_modules\.bin\eslint
+		node_modules\.bin\eslint.cmd = node_modules\.bin\eslint.cmd
+		node_modules\.bin\esparse = node_modules\.bin\esparse
+		node_modules\.bin\esparse.cmd = node_modules\.bin\esparse.cmd
+		node_modules\.bin\esvalidate = node_modules\.bin\esvalidate
+		node_modules\.bin\esvalidate.cmd = node_modules\.bin\esvalidate.cmd
+		node_modules\.bin\gulp = node_modules\.bin\gulp
+		node_modules\.bin\gulp.cmd = node_modules\.bin\gulp.cmd
+		node_modules\.bin\js-yaml = node_modules\.bin\js-yaml
+		node_modules\.bin\js-yaml.cmd = node_modules\.bin\js-yaml.cmd
+		node_modules\.bin\mkdirp = node_modules\.bin\mkdirp
+		node_modules\.bin\mkdirp.cmd = node_modules\.bin\mkdirp.cmd
+		node_modules\.bin\rimraf = node_modules\.bin\rimraf
+		node_modules\.bin\rimraf.cmd = node_modules\.bin\rimraf.cmd
+		node_modules\.bin\semver = node_modules\.bin\semver
+		node_modules\.bin\semver.cmd = node_modules\.bin\semver.cmd
+		node_modules\.bin\shjs = node_modules\.bin\shjs
+		node_modules\.bin\shjs.cmd = node_modules\.bin\shjs.cmd
+		node_modules\.bin\strip-bom = node_modules\.bin\strip-bom
+		node_modules\.bin\strip-bom.cmd = node_modules\.bin\strip-bom.cmd
+		node_modules\.bin\tsc = node_modules\.bin\tsc
+		node_modules\.bin\tsc.cmd = node_modules\.bin\tsc.cmd
+		node_modules\.bin\tslint = node_modules\.bin\tslint
+		node_modules\.bin\tslint.cmd = node_modules\.bin\tslint.cmd
+		node_modules\.bin\tsserver = node_modules\.bin\tsserver
+		node_modules\.bin\tsserver.cmd = node_modules\.bin\tsserver.cmd
+		node_modules\.bin\uglifyjs = node_modules\.bin\uglifyjs
+		node_modules\.bin\uglifyjs.cmd = node_modules\.bin\uglifyjs.cmd
+		node_modules\.bin\user-home = node_modules\.bin\user-home
+		node_modules\.bin\user-home.cmd = node_modules\.bin\user-home.cmd
+		node_modules\.bin\which = node_modules\.bin\which
+		node_modules\.bin\which.cmd = node_modules\.bin\which.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "@gulp-sourcemaps", "@gulp-sourcemaps", "{E6722974-1188-4BE6-9DC8-6BAAB3B1B821}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "identity-map", "identity-map", "{DE0A23A1-5598-41C6-9285-9E9DE76D025D}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\@gulp-sourcemaps\identity-map\index.js = node_modules\@gulp-sourcemaps\identity-map\index.js
+		node_modules\@gulp-sourcemaps\identity-map\LICENSE = node_modules\@gulp-sourcemaps\identity-map\LICENSE
+		node_modules\@gulp-sourcemaps\identity-map\package.json = node_modules\@gulp-sourcemaps\identity-map\package.json
+		node_modules\@gulp-sourcemaps\identity-map\README.md = node_modules\@gulp-sourcemaps\identity-map\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{10F6EE03-FC74-44C4-961C-1C8A9B070B73}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\@gulp-sourcemaps\identity-map\lib\generate.js = node_modules\@gulp-sourcemaps\identity-map\lib\generate.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "map-sources", "map-sources", "{0E5A3E1D-890F-4BFA-A3A7-57E61769BE5D}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\@gulp-sourcemaps\map-sources\index.js = node_modules\@gulp-sourcemaps\map-sources\index.js
+		node_modules\@gulp-sourcemaps\map-sources\LICENSE = node_modules\@gulp-sourcemaps\map-sources\LICENSE
+		node_modules\@gulp-sourcemaps\map-sources\package.json = node_modules\@gulp-sourcemaps\map-sources\package.json
+		node_modules\@gulp-sourcemaps\map-sources\README.md = node_modules\@gulp-sourcemaps\map-sources\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "@types", "@types", "{74A6B3BF-9F47-4BA0-A744-318C396BBDEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "react", "react", "{D25BDD90-AF09-4915-AF6A-C9858D4EBEED}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\@types\react\index.d.ts = node_modules\@types\react\index.d.ts
+		node_modules\@types\react\LICENSE = node_modules\@types\react\LICENSE
+		node_modules\@types\react\package.json = node_modules\@types\react\package.json
+		node_modules\@types\react\README.md = node_modules\@types\react\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "react-dom", "react-dom", "{378D0B62-10C7-444F-841A-FCA030C14D49}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\@types\react-dom\index.d.ts = node_modules\@types\react-dom\index.d.ts
+		node_modules\@types\react-dom\LICENSE = node_modules\@types\react-dom\LICENSE
+		node_modules\@types\react-dom\package.json = node_modules\@types\react-dom\package.json
+		node_modules\@types\react-dom\README.md = node_modules\@types\react-dom\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node-stream", "node-stream", "{78914D26-F6B4-4CE8-9C62-D1A4F02244F1}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\@types\react-dom\node-stream\index.d.ts = node_modules\@types\react-dom\node-stream\index.d.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{9C212333-4032-4EAA-8EF4-F88C1F01659E}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\@types\react-dom\server\index.d.ts = node_modules\@types\react-dom\server\index.d.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test-utils", "test-utils", "{32A3BBCC-2FA0-4B54-87B4-D087E30525C9}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\@types\react-dom\test-utils\index.d.ts = node_modules\@types\react-dom\test-utils\index.d.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "acorn", "acorn", "{74E4D1DB-A4BC-45CC-8A48-4A755E217D90}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn\AUTHORS = node_modules\acorn\AUTHORS
+		node_modules\acorn\CHANGELOG.md = node_modules\acorn\CHANGELOG.md
+		node_modules\acorn\LICENSE = node_modules\acorn\LICENSE
+		node_modules\acorn\package.json = node_modules\acorn\package.json
+		node_modules\acorn\README.md = node_modules\acorn\README.md
+		node_modules\acorn\yarn-error.log = node_modules\acorn\yarn-error.log
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{F85A88DB-4D60-42B7-8765-017C43DC3B87}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn\bin\_acorn.js = node_modules\acorn\bin\_acorn.js
+		node_modules\acorn\bin\acorn = node_modules\acorn\bin\acorn
+		node_modules\acorn\bin\run_test262.js = node_modules\acorn\bin\run_test262.js
+		node_modules\acorn\bin\test262.whitelist = node_modules\acorn\bin\test262.whitelist
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{603DC06B-677C-4AA6-B2A9-8F878D416003}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn\dist\.keep = node_modules\acorn\dist\.keep
+		node_modules\acorn\dist\acorn.es.js = node_modules\acorn\dist\acorn.es.js
+		node_modules\acorn\dist\acorn.js = node_modules\acorn\dist\acorn.js
+		node_modules\acorn\dist\acorn_loose.es.js = node_modules\acorn\dist\acorn_loose.es.js
+		node_modules\acorn\dist\acorn_loose.js = node_modules\acorn\dist\acorn_loose.js
+		node_modules\acorn\dist\walk.es.js = node_modules\acorn\dist\walk.es.js
+		node_modules\acorn\dist\walk.js = node_modules\acorn\dist\walk.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "acorn-jsx", "acorn-jsx", "{5811BDD6-3D0E-4AA9-AFC7-43B77D471F47}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn-jsx\index.js = node_modules\acorn-jsx\index.js
+		node_modules\acorn-jsx\inject.js = node_modules\acorn-jsx\inject.js
+		node_modules\acorn-jsx\LICENSE = node_modules\acorn-jsx\LICENSE
+		node_modules\acorn-jsx\package.json = node_modules\acorn-jsx\package.json
+		node_modules\acorn-jsx\README.md = node_modules\acorn-jsx\README.md
+		node_modules\acorn-jsx\xhtml.js = node_modules\acorn-jsx\xhtml.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{0D3DEFE8-1B48-4A12-8BFC-9CCE528927B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".bin", ".bin", "{FBBB7BF7-D97C-4E9C-B945-5C411DBAB7C3}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn-jsx\node_modules\.bin\acorn = node_modules\acorn-jsx\node_modules\.bin\acorn
+		node_modules\acorn-jsx\node_modules\.bin\acorn.cmd = node_modules\acorn-jsx\node_modules\.bin\acorn.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "acorn", "acorn", "{1ECE6B83-9F3C-492D-86DE-F905B262ADA0}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn-jsx\node_modules\acorn\.editorconfig = node_modules\acorn-jsx\node_modules\acorn\.editorconfig
+		node_modules\acorn-jsx\node_modules\acorn\.gitattributes = node_modules\acorn-jsx\node_modules\acorn\.gitattributes
+		node_modules\acorn-jsx\node_modules\acorn\.npmignore = node_modules\acorn-jsx\node_modules\acorn\.npmignore
+		node_modules\acorn-jsx\node_modules\acorn\.tern-project = node_modules\acorn-jsx\node_modules\acorn\.tern-project
+		node_modules\acorn-jsx\node_modules\acorn\.travis.yml = node_modules\acorn-jsx\node_modules\acorn\.travis.yml
+		node_modules\acorn-jsx\node_modules\acorn\AUTHORS = node_modules\acorn-jsx\node_modules\acorn\AUTHORS
+		node_modules\acorn-jsx\node_modules\acorn\CHANGELOG.md = node_modules\acorn-jsx\node_modules\acorn\CHANGELOG.md
+		node_modules\acorn-jsx\node_modules\acorn\LICENSE = node_modules\acorn-jsx\node_modules\acorn\LICENSE
+		node_modules\acorn-jsx\node_modules\acorn\package.json = node_modules\acorn-jsx\node_modules\acorn\package.json
+		node_modules\acorn-jsx\node_modules\acorn\README.md = node_modules\acorn-jsx\node_modules\acorn\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{A3E9A5F2-9263-40F6-89C5-D06E3543CAD9}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn-jsx\node_modules\acorn\bin\acorn = node_modules\acorn-jsx\node_modules\acorn\bin\acorn
+		node_modules\acorn-jsx\node_modules\acorn\bin\generate-identifier-regex.js = node_modules\acorn-jsx\node_modules\acorn\bin\generate-identifier-regex.js
+		node_modules\acorn-jsx\node_modules\acorn\bin\update_authors.sh = node_modules\acorn-jsx\node_modules\acorn\bin\update_authors.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{DA84DDE1-F7B4-4FBE-ACC4-B5D12F8CA294}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn-jsx\node_modules\acorn\dist\.keep = node_modules\acorn-jsx\node_modules\acorn\dist\.keep
+		node_modules\acorn-jsx\node_modules\acorn\dist\acorn.es.js = node_modules\acorn-jsx\node_modules\acorn\dist\acorn.es.js
+		node_modules\acorn-jsx\node_modules\acorn\dist\acorn.js = node_modules\acorn-jsx\node_modules\acorn\dist\acorn.js
+		node_modules\acorn-jsx\node_modules\acorn\dist\acorn_loose.es.js = node_modules\acorn-jsx\node_modules\acorn\dist\acorn_loose.es.js
+		node_modules\acorn-jsx\node_modules\acorn\dist\acorn_loose.js = node_modules\acorn-jsx\node_modules\acorn\dist\acorn_loose.js
+		node_modules\acorn-jsx\node_modules\acorn\dist\walk.es.js = node_modules\acorn-jsx\node_modules\acorn\dist\walk.es.js
+		node_modules\acorn-jsx\node_modules\acorn\dist\walk.js = node_modules\acorn-jsx\node_modules\acorn\dist\walk.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rollup", "rollup", "{4E6FCFA5-D911-4869-A842-325FCCD51357}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn-jsx\node_modules\acorn\rollup\config.bin.js = node_modules\acorn-jsx\node_modules\acorn\rollup\config.bin.js
+		node_modules\acorn-jsx\node_modules\acorn\rollup\config.loose.js = node_modules\acorn-jsx\node_modules\acorn\rollup\config.loose.js
+		node_modules\acorn-jsx\node_modules\acorn\rollup\config.main.js = node_modules\acorn-jsx\node_modules\acorn\rollup\config.main.js
+		node_modules\acorn-jsx\node_modules\acorn\rollup\config.walk.js = node_modules\acorn-jsx\node_modules\acorn\rollup\config.walk.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{77CBD86A-D0C8-4C0F-8697-604CCC57BF59}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn-jsx\node_modules\acorn\src\expression.js = node_modules\acorn-jsx\node_modules\acorn\src\expression.js
+		node_modules\acorn-jsx\node_modules\acorn\src\identifier.js = node_modules\acorn-jsx\node_modules\acorn\src\identifier.js
+		node_modules\acorn-jsx\node_modules\acorn\src\index.js = node_modules\acorn-jsx\node_modules\acorn\src\index.js
+		node_modules\acorn-jsx\node_modules\acorn\src\location.js = node_modules\acorn-jsx\node_modules\acorn\src\location.js
+		node_modules\acorn-jsx\node_modules\acorn\src\locutil.js = node_modules\acorn-jsx\node_modules\acorn\src\locutil.js
+		node_modules\acorn-jsx\node_modules\acorn\src\lval.js = node_modules\acorn-jsx\node_modules\acorn\src\lval.js
+		node_modules\acorn-jsx\node_modules\acorn\src\node.js = node_modules\acorn-jsx\node_modules\acorn\src\node.js
+		node_modules\acorn-jsx\node_modules\acorn\src\options.js = node_modules\acorn-jsx\node_modules\acorn\src\options.js
+		node_modules\acorn-jsx\node_modules\acorn\src\parseutil.js = node_modules\acorn-jsx\node_modules\acorn\src\parseutil.js
+		node_modules\acorn-jsx\node_modules\acorn\src\state.js = node_modules\acorn-jsx\node_modules\acorn\src\state.js
+		node_modules\acorn-jsx\node_modules\acorn\src\statement.js = node_modules\acorn-jsx\node_modules\acorn\src\statement.js
+		node_modules\acorn-jsx\node_modules\acorn\src\tokencontext.js = node_modules\acorn-jsx\node_modules\acorn\src\tokencontext.js
+		node_modules\acorn-jsx\node_modules\acorn\src\tokenize.js = node_modules\acorn-jsx\node_modules\acorn\src\tokenize.js
+		node_modules\acorn-jsx\node_modules\acorn\src\tokentype.js = node_modules\acorn-jsx\node_modules\acorn\src\tokentype.js
+		node_modules\acorn-jsx\node_modules\acorn\src\util.js = node_modules\acorn-jsx\node_modules\acorn\src\util.js
+		node_modules\acorn-jsx\node_modules\acorn\src\whitespace.js = node_modules\acorn-jsx\node_modules\acorn\src\whitespace.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{7443EDA8-F8A1-45E3-8E36-E55533D9EE63}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn-jsx\node_modules\acorn\src\bin\acorn.js = node_modules\acorn-jsx\node_modules\acorn\src\bin\acorn.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "loose", "loose", "{0157A703-BFB8-46FD-8CFE-510FD1A91953}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn-jsx\node_modules\acorn\src\loose\expression.js = node_modules\acorn-jsx\node_modules\acorn\src\loose\expression.js
+		node_modules\acorn-jsx\node_modules\acorn\src\loose\index.js = node_modules\acorn-jsx\node_modules\acorn\src\loose\index.js
+		node_modules\acorn-jsx\node_modules\acorn\src\loose\parseutil.js = node_modules\acorn-jsx\node_modules\acorn\src\loose\parseutil.js
+		node_modules\acorn-jsx\node_modules\acorn\src\loose\state.js = node_modules\acorn-jsx\node_modules\acorn\src\loose\state.js
+		node_modules\acorn-jsx\node_modules\acorn\src\loose\statement.js = node_modules\acorn-jsx\node_modules\acorn\src\loose\statement.js
+		node_modules\acorn-jsx\node_modules\acorn\src\loose\tokenize.js = node_modules\acorn-jsx\node_modules\acorn\src\loose\tokenize.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "walk", "walk", "{0BD9DBC6-0CF2-46B3-B5E0-1EB6375D986E}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\acorn-jsx\node_modules\acorn\src\walk\index.js = node_modules\acorn-jsx\node_modules\acorn\src\walk\index.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ajv", "ajv", "{0B23B1C4-DD87-4990-A1D1-3E5A1CA359EE}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv\.tonic_example.js = node_modules\ajv\.tonic_example.js
+		node_modules\ajv\LICENSE = node_modules\ajv\LICENSE
+		node_modules\ajv\package.json = node_modules\ajv\package.json
+		node_modules\ajv\README.md = node_modules\ajv\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{151A576D-8D3A-45A1-A470-4190FABE787C}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv\dist\ajv.bundle.js = node_modules\ajv\dist\ajv.bundle.js
+		node_modules\ajv\dist\ajv.min.js = node_modules\ajv\dist\ajv.min.js
+		node_modules\ajv\dist\ajv.min.js.map = node_modules\ajv\dist\ajv.min.js.map
+		node_modules\ajv\dist\nodent.min.js = node_modules\ajv\dist\nodent.min.js
+		node_modules\ajv\dist\regenerator.min.js = node_modules\ajv\dist\regenerator.min.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{116A7396-70C9-44F7-9F7C-6AEBA03659BD}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv\lib\ajv.d.ts = node_modules\ajv\lib\ajv.d.ts
+		node_modules\ajv\lib\ajv.js = node_modules\ajv\lib\ajv.js
+		node_modules\ajv\lib\async.js = node_modules\ajv\lib\async.js
+		node_modules\ajv\lib\cache.js = node_modules\ajv\lib\cache.js
+		node_modules\ajv\lib\keyword.js = node_modules\ajv\lib\keyword.js
+		node_modules\ajv\lib\v5.js = node_modules\ajv\lib\v5.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "compile", "compile", "{CE15016E-4426-455E-AD44-9F0D10246DFB}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv\lib\compile\_rules.js = node_modules\ajv\lib\compile\_rules.js
+		node_modules\ajv\lib\compile\equal.js = node_modules\ajv\lib\compile\equal.js
+		node_modules\ajv\lib\compile\formats.js = node_modules\ajv\lib\compile\formats.js
+		node_modules\ajv\lib\compile\index.js = node_modules\ajv\lib\compile\index.js
+		node_modules\ajv\lib\compile\resolve.js = node_modules\ajv\lib\compile\resolve.js
+		node_modules\ajv\lib\compile\rules.js = node_modules\ajv\lib\compile\rules.js
+		node_modules\ajv\lib\compile\schema_obj.js = node_modules\ajv\lib\compile\schema_obj.js
+		node_modules\ajv\lib\compile\ucs2length.js = node_modules\ajv\lib\compile\ucs2length.js
+		node_modules\ajv\lib\compile\util.js = node_modules\ajv\lib\compile\util.js
+		node_modules\ajv\lib\compile\validation_error.js = node_modules\ajv\lib\compile\validation_error.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dot", "dot", "{877D6F60-0253-49B2-998E-2F2DAD738F5B}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv\lib\dot\_limit.jst = node_modules\ajv\lib\dot\_limit.jst
+		node_modules\ajv\lib\dot\_limitItems.jst = node_modules\ajv\lib\dot\_limitItems.jst
+		node_modules\ajv\lib\dot\_limitLength.jst = node_modules\ajv\lib\dot\_limitLength.jst
+		node_modules\ajv\lib\dot\_limitProperties.jst = node_modules\ajv\lib\dot\_limitProperties.jst
+		node_modules\ajv\lib\dot\allOf.jst = node_modules\ajv\lib\dot\allOf.jst
+		node_modules\ajv\lib\dot\anyOf.jst = node_modules\ajv\lib\dot\anyOf.jst
+		node_modules\ajv\lib\dot\coerce.def = node_modules\ajv\lib\dot\coerce.def
+		node_modules\ajv\lib\dot\custom.jst = node_modules\ajv\lib\dot\custom.jst
+		node_modules\ajv\lib\dot\defaults.def = node_modules\ajv\lib\dot\defaults.def
+		node_modules\ajv\lib\dot\definitions.def = node_modules\ajv\lib\dot\definitions.def
+		node_modules\ajv\lib\dot\dependencies.jst = node_modules\ajv\lib\dot\dependencies.jst
+		node_modules\ajv\lib\dot\enum.jst = node_modules\ajv\lib\dot\enum.jst
+		node_modules\ajv\lib\dot\errors.def = node_modules\ajv\lib\dot\errors.def
+		node_modules\ajv\lib\dot\format.jst = node_modules\ajv\lib\dot\format.jst
+		node_modules\ajv\lib\dot\items.jst = node_modules\ajv\lib\dot\items.jst
+		node_modules\ajv\lib\dot\missing.def = node_modules\ajv\lib\dot\missing.def
+		node_modules\ajv\lib\dot\multipleOf.jst = node_modules\ajv\lib\dot\multipleOf.jst
+		node_modules\ajv\lib\dot\not.jst = node_modules\ajv\lib\dot\not.jst
+		node_modules\ajv\lib\dot\oneOf.jst = node_modules\ajv\lib\dot\oneOf.jst
+		node_modules\ajv\lib\dot\pattern.jst = node_modules\ajv\lib\dot\pattern.jst
+		node_modules\ajv\lib\dot\properties.jst = node_modules\ajv\lib\dot\properties.jst
+		node_modules\ajv\lib\dot\ref.jst = node_modules\ajv\lib\dot\ref.jst
+		node_modules\ajv\lib\dot\required.jst = node_modules\ajv\lib\dot\required.jst
+		node_modules\ajv\lib\dot\uniqueItems.jst = node_modules\ajv\lib\dot\uniqueItems.jst
+		node_modules\ajv\lib\dot\validate.jst = node_modules\ajv\lib\dot\validate.jst
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v5", "v5", "{72864141-8650-4B61-A680-F7CF69C58C1B}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv\lib\dot\v5\_formatLimit.jst = node_modules\ajv\lib\dot\v5\_formatLimit.jst
+		node_modules\ajv\lib\dot\v5\constant.jst = node_modules\ajv\lib\dot\v5\constant.jst
+		node_modules\ajv\lib\dot\v5\patternRequired.jst = node_modules\ajv\lib\dot\v5\patternRequired.jst
+		node_modules\ajv\lib\dot\v5\switch.jst = node_modules\ajv\lib\dot\v5\switch.jst
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotjs", "dotjs", "{5F571E88-23AC-49CC-8089-CDA34CF2BC8D}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv\lib\dotjs\_formatLimit.js = node_modules\ajv\lib\dotjs\_formatLimit.js
+		node_modules\ajv\lib\dotjs\_limit.js = node_modules\ajv\lib\dotjs\_limit.js
+		node_modules\ajv\lib\dotjs\_limitItems.js = node_modules\ajv\lib\dotjs\_limitItems.js
+		node_modules\ajv\lib\dotjs\_limitLength.js = node_modules\ajv\lib\dotjs\_limitLength.js
+		node_modules\ajv\lib\dotjs\_limitProperties.js = node_modules\ajv\lib\dotjs\_limitProperties.js
+		node_modules\ajv\lib\dotjs\allOf.js = node_modules\ajv\lib\dotjs\allOf.js
+		node_modules\ajv\lib\dotjs\anyOf.js = node_modules\ajv\lib\dotjs\anyOf.js
+		node_modules\ajv\lib\dotjs\constant.js = node_modules\ajv\lib\dotjs\constant.js
+		node_modules\ajv\lib\dotjs\custom.js = node_modules\ajv\lib\dotjs\custom.js
+		node_modules\ajv\lib\dotjs\dependencies.js = node_modules\ajv\lib\dotjs\dependencies.js
+		node_modules\ajv\lib\dotjs\enum.js = node_modules\ajv\lib\dotjs\enum.js
+		node_modules\ajv\lib\dotjs\format.js = node_modules\ajv\lib\dotjs\format.js
+		node_modules\ajv\lib\dotjs\items.js = node_modules\ajv\lib\dotjs\items.js
+		node_modules\ajv\lib\dotjs\multipleOf.js = node_modules\ajv\lib\dotjs\multipleOf.js
+		node_modules\ajv\lib\dotjs\not.js = node_modules\ajv\lib\dotjs\not.js
+		node_modules\ajv\lib\dotjs\oneOf.js = node_modules\ajv\lib\dotjs\oneOf.js
+		node_modules\ajv\lib\dotjs\pattern.js = node_modules\ajv\lib\dotjs\pattern.js
+		node_modules\ajv\lib\dotjs\patternRequired.js = node_modules\ajv\lib\dotjs\patternRequired.js
+		node_modules\ajv\lib\dotjs\properties.js = node_modules\ajv\lib\dotjs\properties.js
+		node_modules\ajv\lib\dotjs\README.md = node_modules\ajv\lib\dotjs\README.md
+		node_modules\ajv\lib\dotjs\ref.js = node_modules\ajv\lib\dotjs\ref.js
+		node_modules\ajv\lib\dotjs\required.js = node_modules\ajv\lib\dotjs\required.js
+		node_modules\ajv\lib\dotjs\switch.js = node_modules\ajv\lib\dotjs\switch.js
+		node_modules\ajv\lib\dotjs\uniqueItems.js = node_modules\ajv\lib\dotjs\uniqueItems.js
+		node_modules\ajv\lib\dotjs\validate.js = node_modules\ajv\lib\dotjs\validate.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "refs", "refs", "{E9C3ACD0-6F14-4E62-A9E5-D51050953212}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv\lib\refs\json-schema-draft-04.json = node_modules\ajv\lib\refs\json-schema-draft-04.json
+		node_modules\ajv\lib\refs\json-schema-v5.json = node_modules\ajv\lib\refs\json-schema-v5.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{945E52BE-2CC9-4576-8DFF-EED7F448778D}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv\scripts\.eslintrc.yml = node_modules\ajv\scripts\.eslintrc.yml
+		node_modules\ajv\scripts\bundle.js = node_modules\ajv\scripts\bundle.js
+		node_modules\ajv\scripts\compile-dots.js = node_modules\ajv\scripts\compile-dots.js
+		node_modules\ajv\scripts\info = node_modules\ajv\scripts\info
+		node_modules\ajv\scripts\prepare-tests = node_modules\ajv\scripts\prepare-tests
+		node_modules\ajv\scripts\travis-gh-pages = node_modules\ajv\scripts\travis-gh-pages
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ajv-keywords", "ajv-keywords", "{29B18DD2-5FEB-496E-B5B3-B3856AFF529A}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv-keywords\index.js = node_modules\ajv-keywords\index.js
+		node_modules\ajv-keywords\LICENSE = node_modules\ajv-keywords\LICENSE
+		node_modules\ajv-keywords\package.json = node_modules\ajv-keywords\package.json
+		node_modules\ajv-keywords\README.md = node_modules\ajv-keywords\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "keywords", "keywords", "{C4466719-ADED-455A-8129-207B2EBD6EE5}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv-keywords\keywords\_formatLimit.js = node_modules\ajv-keywords\keywords\_formatLimit.js
+		node_modules\ajv-keywords\keywords\deepProperties.js = node_modules\ajv-keywords\keywords\deepProperties.js
+		node_modules\ajv-keywords\keywords\deepRequired.js = node_modules\ajv-keywords\keywords\deepRequired.js
+		node_modules\ajv-keywords\keywords\dynamicDefaults.js = node_modules\ajv-keywords\keywords\dynamicDefaults.js
+		node_modules\ajv-keywords\keywords\formatMaximum.js = node_modules\ajv-keywords\keywords\formatMaximum.js
+		node_modules\ajv-keywords\keywords\formatMinimum.js = node_modules\ajv-keywords\keywords\formatMinimum.js
+		node_modules\ajv-keywords\keywords\if.js = node_modules\ajv-keywords\keywords\if.js
+		node_modules\ajv-keywords\keywords\index.js = node_modules\ajv-keywords\keywords\index.js
+		node_modules\ajv-keywords\keywords\instanceof.js = node_modules\ajv-keywords\keywords\instanceof.js
+		node_modules\ajv-keywords\keywords\patternRequired.js = node_modules\ajv-keywords\keywords\patternRequired.js
+		node_modules\ajv-keywords\keywords\prohibited.js = node_modules\ajv-keywords\keywords\prohibited.js
+		node_modules\ajv-keywords\keywords\propertyNames.js = node_modules\ajv-keywords\keywords\propertyNames.js
+		node_modules\ajv-keywords\keywords\range.js = node_modules\ajv-keywords\keywords\range.js
+		node_modules\ajv-keywords\keywords\regexp.js = node_modules\ajv-keywords\keywords\regexp.js
+		node_modules\ajv-keywords\keywords\switch.js = node_modules\ajv-keywords\keywords\switch.js
+		node_modules\ajv-keywords\keywords\typeof.js = node_modules\ajv-keywords\keywords\typeof.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dot", "dot", "{6B6E0848-68D3-42CB-AA32-C4293636AC11}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv-keywords\keywords\dot\_formatLimit.jst = node_modules\ajv-keywords\keywords\dot\_formatLimit.jst
+		node_modules\ajv-keywords\keywords\dot\patternRequired.jst = node_modules\ajv-keywords\keywords\dot\patternRequired.jst
+		node_modules\ajv-keywords\keywords\dot\switch.jst = node_modules\ajv-keywords\keywords\dot\switch.jst
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotjs", "dotjs", "{63D34C94-8FBD-47EC-8459-792E157AA4B5}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ajv-keywords\keywords\dotjs\_formatLimit.js = node_modules\ajv-keywords\keywords\dotjs\_formatLimit.js
+		node_modules\ajv-keywords\keywords\dotjs\patternRequired.js = node_modules\ajv-keywords\keywords\dotjs\patternRequired.js
+		node_modules\ajv-keywords\keywords\dotjs\README.md = node_modules\ajv-keywords\keywords\dotjs\README.md
+		node_modules\ajv-keywords\keywords\dotjs\switch.js = node_modules\ajv-keywords\keywords\dotjs\switch.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "amdefine", "amdefine", "{8E69C209-409A-42A0-BDCC-8716A635E424}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\amdefine\amdefine.js = node_modules\amdefine\amdefine.js
+		node_modules\amdefine\intercept.js = node_modules\amdefine\intercept.js
+		node_modules\amdefine\LICENSE = node_modules\amdefine\LICENSE
+		node_modules\amdefine\package.json = node_modules\amdefine\package.json
+		node_modules\amdefine\README.md = node_modules\amdefine\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ansi-escapes", "ansi-escapes", "{4C3BC95E-741F-48B8-98CE-9AF72FE3F4C1}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ansi-escapes\index.js = node_modules\ansi-escapes\index.js
+		node_modules\ansi-escapes\license = node_modules\ansi-escapes\license
+		node_modules\ansi-escapes\package.json = node_modules\ansi-escapes\package.json
+		node_modules\ansi-escapes\readme.md = node_modules\ansi-escapes\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ansi-gray", "ansi-gray", "{CA0826EE-FB85-4500-9549-34D12CC63C47}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ansi-gray\index.js = node_modules\ansi-gray\index.js
+		node_modules\ansi-gray\LICENSE = node_modules\ansi-gray\LICENSE
+		node_modules\ansi-gray\package.json = node_modules\ansi-gray\package.json
+		node_modules\ansi-gray\readme.md = node_modules\ansi-gray\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ansi-regex", "ansi-regex", "{1BC8E8ED-D6A5-4989-9ABF-25D8E1942C7E}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ansi-regex\index.js = node_modules\ansi-regex\index.js
+		node_modules\ansi-regex\license = node_modules\ansi-regex\license
+		node_modules\ansi-regex\package.json = node_modules\ansi-regex\package.json
+		node_modules\ansi-regex\readme.md = node_modules\ansi-regex\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ansi-styles", "ansi-styles", "{6381C1FC-A8EC-4F5B-8BC1-A71DA10FA1EE}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ansi-styles\index.js = node_modules\ansi-styles\index.js
+		node_modules\ansi-styles\license = node_modules\ansi-styles\license
+		node_modules\ansi-styles\package.json = node_modules\ansi-styles\package.json
+		node_modules\ansi-styles\readme.md = node_modules\ansi-styles\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ansi-wrap", "ansi-wrap", "{46017145-A443-4DB7-B5DA-AC1F3A1C9D65}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\ansi-wrap\index.js = node_modules\ansi-wrap\index.js
+		node_modules\ansi-wrap\LICENSE = node_modules\ansi-wrap\LICENSE
+		node_modules\ansi-wrap\package.json = node_modules\ansi-wrap\package.json
+		node_modules\ansi-wrap\README.md = node_modules\ansi-wrap\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "archy", "archy", "{43A36632-F6D1-4183-9173-B7AE8A5CC6A2}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\archy\.travis.yml = node_modules\archy\.travis.yml
+		node_modules\archy\index.js = node_modules\archy\index.js
+		node_modules\archy\LICENSE = node_modules\archy\LICENSE
+		node_modules\archy\package.json = node_modules\archy\package.json
+		node_modules\archy\readme.markdown = node_modules\archy\readme.markdown
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{F2ECA604-DC1F-4E92-AC1B-01E92A0DF17F}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\archy\examples\beep.js = node_modules\archy\examples\beep.js
+		node_modules\archy\examples\multi_line.js = node_modules\archy\examples\multi_line.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{719497B3-F511-47ED-8ACB-A0764ACE9A96}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\archy\test\beep.js = node_modules\archy\test\beep.js
+		node_modules\archy\test\multi_line.js = node_modules\archy\test\multi_line.js
+		node_modules\archy\test\non_unicode.js = node_modules\archy\test\non_unicode.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "argparse", "argparse", "{11FFFD8D-38A1-4F45-85E9-B934329F825B}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\argparse\CHANGELOG.md = node_modules\argparse\CHANGELOG.md
+		node_modules\argparse\index.js = node_modules\argparse\index.js
+		node_modules\argparse\LICENSE = node_modules\argparse\LICENSE
+		node_modules\argparse\package.json = node_modules\argparse\package.json
+		node_modules\argparse\README.md = node_modules\argparse\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{7113ED91-C95A-4540-A5E2-65EC10F86008}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\argparse\lib\action.js = node_modules\argparse\lib\action.js
+		node_modules\argparse\lib\action_container.js = node_modules\argparse\lib\action_container.js
+		node_modules\argparse\lib\argparse.js = node_modules\argparse\lib\argparse.js
+		node_modules\argparse\lib\argument_parser.js = node_modules\argparse\lib\argument_parser.js
+		node_modules\argparse\lib\const.js = node_modules\argparse\lib\const.js
+		node_modules\argparse\lib\namespace.js = node_modules\argparse\lib\namespace.js
+		node_modules\argparse\lib\utils.js = node_modules\argparse\lib\utils.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "action", "action", "{5127B43B-8AD4-451F-B025-D9F67F51352C}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\argparse\lib\action\append.js = node_modules\argparse\lib\action\append.js
+		node_modules\argparse\lib\action\count.js = node_modules\argparse\lib\action\count.js
+		node_modules\argparse\lib\action\help.js = node_modules\argparse\lib\action\help.js
+		node_modules\argparse\lib\action\store.js = node_modules\argparse\lib\action\store.js
+		node_modules\argparse\lib\action\subparsers.js = node_modules\argparse\lib\action\subparsers.js
+		node_modules\argparse\lib\action\version.js = node_modules\argparse\lib\action\version.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "append", "append", "{E0CA05CE-5AD2-4ECA-A270-E2DDE0D56344}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\argparse\lib\action\append\constant.js = node_modules\argparse\lib\action\append\constant.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "store", "store", "{E0022756-7EA2-481C-9F02-4957C2DEAE5C}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\argparse\lib\action\store\constant.js = node_modules\argparse\lib\action\store\constant.js
+		node_modules\argparse\lib\action\store\false.js = node_modules\argparse\lib\action\store\false.js
+		node_modules\argparse\lib\action\store\true.js = node_modules\argparse\lib\action\store\true.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "argument", "argument", "{52C34623-EF4E-4C18-9B10-2B3AFE8A35B6}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\argparse\lib\argument\error.js = node_modules\argparse\lib\argument\error.js
+		node_modules\argparse\lib\argument\exclusive.js = node_modules\argparse\lib\argument\exclusive.js
+		node_modules\argparse\lib\argument\group.js = node_modules\argparse\lib\argument\group.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "help", "help", "{D4DA940D-458D-4FCC-AA4A-D5ABCF0A562C}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\argparse\lib\help\added_formatters.js = node_modules\argparse\lib\help\added_formatters.js
+		node_modules\argparse\lib\help\formatter.js = node_modules\argparse\lib\help\formatter.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "arr-diff", "arr-diff", "{BCAAFE4B-B56D-4148-B9B2-FEB46A2C2F51}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\arr-diff\index.js = node_modules\arr-diff\index.js
+		node_modules\arr-diff\LICENSE = node_modules\arr-diff\LICENSE
+		node_modules\arr-diff\package.json = node_modules\arr-diff\package.json
+		node_modules\arr-diff\README.md = node_modules\arr-diff\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "arr-flatten", "arr-flatten", "{56FE22E1-3950-4AF5-8E5B-9819958FE7AB}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\arr-flatten\index.js = node_modules\arr-flatten\index.js
+		node_modules\arr-flatten\LICENSE = node_modules\arr-flatten\LICENSE
+		node_modules\arr-flatten\package.json = node_modules\arr-flatten\package.json
+		node_modules\arr-flatten\README.md = node_modules\arr-flatten\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "arr-union", "arr-union", "{C6CD510A-A6D4-4794-8C6C-2EC371E7B591}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\arr-union\index.js = node_modules\arr-union\index.js
+		node_modules\arr-union\LICENSE = node_modules\arr-union\LICENSE
+		node_modules\arr-union\package.json = node_modules\arr-union\package.json
+		node_modules\arr-union\README.md = node_modules\arr-union\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "array-differ", "array-differ", "{6DC0BFF5-478B-4CDB-8EC6-793B2BB48B09}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\array-differ\index.js = node_modules\array-differ\index.js
+		node_modules\array-differ\package.json = node_modules\array-differ\package.json
+		node_modules\array-differ\readme.md = node_modules\array-differ\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "array-each", "array-each", "{08EC19EE-3F01-4DD7-97D0-127D2190929A}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\array-each\index.js = node_modules\array-each\index.js
+		node_modules\array-each\LICENSE = node_modules\array-each\LICENSE
+		node_modules\array-each\package.json = node_modules\array-each\package.json
+		node_modules\array-each\README.md = node_modules\array-each\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "array-slice", "array-slice", "{25D813E8-C983-4807-9CDB-77765F424EF9}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\array-slice\index.js = node_modules\array-slice\index.js
+		node_modules\array-slice\LICENSE = node_modules\array-slice\LICENSE
+		node_modules\array-slice\package.json = node_modules\array-slice\package.json
+		node_modules\array-slice\README.md = node_modules\array-slice\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "array-union", "array-union", "{971E24C7-B300-4E87-B76F-C55D99455D48}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\array-union\index.js = node_modules\array-union\index.js
+		node_modules\array-union\license = node_modules\array-union\license
+		node_modules\array-union\package.json = node_modules\array-union\package.json
+		node_modules\array-union\readme.md = node_modules\array-union\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "array-uniq", "array-uniq", "{3B88A958-5F97-49D4-B6D3-6267F45CA3EE}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\array-uniq\index.js = node_modules\array-uniq\index.js
+		node_modules\array-uniq\license = node_modules\array-uniq\license
+		node_modules\array-uniq\package.json = node_modules\array-uniq\package.json
+		node_modules\array-uniq\readme.md = node_modules\array-uniq\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "array-unique", "array-unique", "{26B2C18C-8663-4CE9-A4C8-56FC9B034F1B}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\array-unique\index.js = node_modules\array-unique\index.js
+		node_modules\array-unique\LICENSE = node_modules\array-unique\LICENSE
+		node_modules\array-unique\package.json = node_modules\array-unique\package.json
+		node_modules\array-unique\README.md = node_modules\array-unique\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "arrify", "arrify", "{094385AD-754B-4945-9B21-0480906B3712}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\arrify\index.js = node_modules\arrify\index.js
+		node_modules\arrify\license = node_modules\arrify\license
+		node_modules\arrify\package.json = node_modules\arrify\package.json
+		node_modules\arrify\readme.md = node_modules\arrify\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assign-symbols", "assign-symbols", "{392AB536-5227-4533-825F-FA22A69A9E6C}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\assign-symbols\index.js = node_modules\assign-symbols\index.js
+		node_modules\assign-symbols\LICENSE = node_modules\assign-symbols\LICENSE
+		node_modules\assign-symbols\package.json = node_modules\assign-symbols\package.json
+		node_modules\assign-symbols\README.md = node_modules\assign-symbols\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "atob", "atob", "{C82EA1C1-FBF2-489E-9782-4CD12091F537}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\atob\bower.json = node_modules\atob\bower.json
+		node_modules\atob\browser-atob.js = node_modules\atob\browser-atob.js
+		node_modules\atob\LICENSE = node_modules\atob\LICENSE
+		node_modules\atob\LICENSE.DOCS = node_modules\atob\LICENSE.DOCS
+		node_modules\atob\node-atob.js = node_modules\atob\node-atob.js
+		node_modules\atob\package.json = node_modules\atob\package.json
+		node_modules\atob\README.md = node_modules\atob\README.md
+		node_modules\atob\test.js = node_modules\atob\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{050F46F7-6CFA-4ABF-AB08-7456A38B26F8}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\atob\bin\atob.js = node_modules\atob\bin\atob.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "babel-code-frame", "babel-code-frame", "{602FE4A4-4AE8-4212-B598-B14C15A55F54}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\babel-code-frame\.npmignore = node_modules\babel-code-frame\.npmignore
+		node_modules\babel-code-frame\package-lock.json = node_modules\babel-code-frame\package-lock.json
+		node_modules\babel-code-frame\package.json = node_modules\babel-code-frame\package.json
+		node_modules\babel-code-frame\README.md = node_modules\babel-code-frame\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{1782049C-C022-4304-A858-E9D1595B049A}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\babel-code-frame\lib\index.js = node_modules\babel-code-frame\lib\index.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "balanced-match", "balanced-match", "{8B7BAB6F-7590-459B-8B3D-9651E6BA7F11}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\balanced-match\.npmignore = node_modules\balanced-match\.npmignore
+		node_modules\balanced-match\index.js = node_modules\balanced-match\index.js
+		node_modules\balanced-match\LICENSE.md = node_modules\balanced-match\LICENSE.md
+		node_modules\balanced-match\package.json = node_modules\balanced-match\package.json
+		node_modules\balanced-match\README.md = node_modules\balanced-match\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "base", "base", "{D7168D08-CFE2-4C0F-AF32-1859675D177B}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\base\index.js = node_modules\base\index.js
+		node_modules\base\LICENSE = node_modules\base\LICENSE
+		node_modules\base\package.json = node_modules\base\package.json
+		node_modules\base\README.md = node_modules\base\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{7E62AC96-E687-4FBE-BF66-64AACB49E4AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "define-property", "define-property", "{95878FED-7AFD-4BCC-B897-22A2204D6B93}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\base\node_modules\define-property\index.js = node_modules\base\node_modules\define-property\index.js
+		node_modules\base\node_modules\define-property\LICENSE = node_modules\base\node_modules\define-property\LICENSE
+		node_modules\base\node_modules\define-property\package.json = node_modules\base\node_modules\define-property\package.json
+		node_modules\base\node_modules\define-property\README.md = node_modules\base\node_modules\define-property\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "is-accessor-descriptor", "is-accessor-descriptor", "{5A6EF070-351D-48B8-851B-841D0E6E3E55}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\base\node_modules\is-accessor-descriptor\index.js = node_modules\base\node_modules\is-accessor-descriptor\index.js
+		node_modules\base\node_modules\is-accessor-descriptor\LICENSE = node_modules\base\node_modules\is-accessor-descriptor\LICENSE
+		node_modules\base\node_modules\is-accessor-descriptor\package.json = node_modules\base\node_modules\is-accessor-descriptor\package.json
+		node_modules\base\node_modules\is-accessor-descriptor\README.md = node_modules\base\node_modules\is-accessor-descriptor\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "is-data-descriptor", "is-data-descriptor", "{94986FB1-B194-4685-BBB2-D750486E25FC}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\base\node_modules\is-data-descriptor\index.js = node_modules\base\node_modules\is-data-descriptor\index.js
+		node_modules\base\node_modules\is-data-descriptor\LICENSE = node_modules\base\node_modules\is-data-descriptor\LICENSE
+		node_modules\base\node_modules\is-data-descriptor\package.json = node_modules\base\node_modules\is-data-descriptor\package.json
+		node_modules\base\node_modules\is-data-descriptor\README.md = node_modules\base\node_modules\is-data-descriptor\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "is-descriptor", "is-descriptor", "{EF1469B8-427B-494C-AB45-C83EE97D7375}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\base\node_modules\is-descriptor\index.js = node_modules\base\node_modules\is-descriptor\index.js
+		node_modules\base\node_modules\is-descriptor\LICENSE = node_modules\base\node_modules\is-descriptor\LICENSE
+		node_modules\base\node_modules\is-descriptor\package.json = node_modules\base\node_modules\is-descriptor\package.json
+		node_modules\base\node_modules\is-descriptor\README.md = node_modules\base\node_modules\is-descriptor\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "beeper", "beeper", "{99781663-734E-413E-BC39-0C2DB718C55D}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\beeper\index.js = node_modules\beeper\index.js
+		node_modules\beeper\license = node_modules\beeper\license
+		node_modules\beeper\package.json = node_modules\beeper\package.json
+		node_modules\beeper\readme.md = node_modules\beeper\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "brace-expansion", "brace-expansion", "{8A72BFD5-1171-4FE1-AAE9-67AEFBADD28A}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\brace-expansion\index.js = node_modules\brace-expansion\index.js
+		node_modules\brace-expansion\LICENSE = node_modules\brace-expansion\LICENSE
+		node_modules\brace-expansion\package.json = node_modules\brace-expansion\package.json
+		node_modules\brace-expansion\README.md = node_modules\brace-expansion\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "braces", "braces", "{AC4E49C6-0335-415F-82C6-29E7EE96F7D1}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\braces\index.js = node_modules\braces\index.js
+		node_modules\braces\LICENSE = node_modules\braces\LICENSE
+		node_modules\braces\package.json = node_modules\braces\package.json
+		node_modules\braces\README.md = node_modules\braces\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{739F5E12-7700-48DF-BE7F-F13E186E5292}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\braces\lib\braces.js = node_modules\braces\lib\braces.js
+		node_modules\braces\lib\compilers.js = node_modules\braces\lib\compilers.js
+		node_modules\braces\lib\parsers.js = node_modules\braces\lib\parsers.js
+		node_modules\braces\lib\utils.js = node_modules\braces\lib\utils.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{CFB7EE9C-749F-4E74-A8C5-A9BEF1B6EBC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extend-shallow", "extend-shallow", "{A0B37CE6-D08E-4130-A98A-59A9A05363DB}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\braces\node_modules\extend-shallow\index.js = node_modules\braces\node_modules\extend-shallow\index.js
+		node_modules\braces\node_modules\extend-shallow\LICENSE = node_modules\braces\node_modules\extend-shallow\LICENSE
+		node_modules\braces\node_modules\extend-shallow\package.json = node_modules\braces\node_modules\extend-shallow\package.json
+		node_modules\braces\node_modules\extend-shallow\README.md = node_modules\braces\node_modules\extend-shallow\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "buffer-from", "buffer-from", "{8064A4F3-EDCD-4ACC-84EF-B9C17DE44B82}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\buffer-from\index.js = node_modules\buffer-from\index.js
+		node_modules\buffer-from\package.json = node_modules\buffer-from\package.json
+		node_modules\buffer-from\readme.md = node_modules\buffer-from\readme.md
+		node_modules\buffer-from\test.js = node_modules\buffer-from\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "builtin-modules", "builtin-modules", "{C6064C2B-940D-4405-8150-1D6A4097C57D}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\builtin-modules\builtin-modules.json = node_modules\builtin-modules\builtin-modules.json
+		node_modules\builtin-modules\index.js = node_modules\builtin-modules\index.js
+		node_modules\builtin-modules\license = node_modules\builtin-modules\license
+		node_modules\builtin-modules\package.json = node_modules\builtin-modules\package.json
+		node_modules\builtin-modules\readme.md = node_modules\builtin-modules\readme.md
+		node_modules\builtin-modules\static.js = node_modules\builtin-modules\static.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cache-base", "cache-base", "{AB647ADA-50B4-4869-B06F-DCB81739AEE5}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cache-base\index.js = node_modules\cache-base\index.js
+		node_modules\cache-base\LICENSE = node_modules\cache-base\LICENSE
+		node_modules\cache-base\package.json = node_modules\cache-base\package.json
+		node_modules\cache-base\README.md = node_modules\cache-base\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "caller-path", "caller-path", "{337C975E-0B47-4D72-AC31-CB77BBA72A29}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\caller-path\index.js = node_modules\caller-path\index.js
+		node_modules\caller-path\package.json = node_modules\caller-path\package.json
+		node_modules\caller-path\readme.md = node_modules\caller-path\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "callsites", "callsites", "{8400472E-6ED6-422A-B63A-87421C774FE4}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\callsites\index.js = node_modules\callsites\index.js
+		node_modules\callsites\package.json = node_modules\callsites\package.json
+		node_modules\callsites\readme.md = node_modules\callsites\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "camelcase", "camelcase", "{83DE162E-7266-4179-A4AA-558CC5751767}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\camelcase\index.js = node_modules\camelcase\index.js
+		node_modules\camelcase\license = node_modules\camelcase\license
+		node_modules\camelcase\package.json = node_modules\camelcase\package.json
+		node_modules\camelcase\readme.md = node_modules\camelcase\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chalk", "chalk", "{6225E23E-B9BC-4424-A26A-E3EF9A052F94}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\chalk\index.js = node_modules\chalk\index.js
+		node_modules\chalk\license = node_modules\chalk\license
+		node_modules\chalk\package.json = node_modules\chalk\package.json
+		node_modules\chalk\readme.md = node_modules\chalk\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "circular-json", "circular-json", "{32D95D2D-DF8C-4F1A-B46F-8F05D3CBFFBC}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\circular-json\.npmignore = node_modules\circular-json\.npmignore
+		node_modules\circular-json\LICENSE.txt = node_modules\circular-json\LICENSE.txt
+		node_modules\circular-json\package.json = node_modules\circular-json\package.json
+		node_modules\circular-json\README.md = node_modules\circular-json\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{178E92EE-2460-47D9-9B47-AB9720DC7114}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\circular-json\build\circular-json.js = node_modules\circular-json\build\circular-json.js
+		node_modules\circular-json\build\circular-json.max.js = node_modules\circular-json\build\circular-json.max.js
+		node_modules\circular-json\build\circular-json.node.js = node_modules\circular-json\build\circular-json.node.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "template", "template", "{7BB8AD48-EB44-4C9A-81BC-54C2D70C9EF0}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\circular-json\template\license.after = node_modules\circular-json\template\license.after
+		node_modules\circular-json\template\license.before = node_modules\circular-json\template\license.before
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "class-utils", "class-utils", "{7BE4B7C1-7B38-4C5B-99CC-CBE0C075D221}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\class-utils\index.js = node_modules\class-utils\index.js
+		node_modules\class-utils\LICENSE = node_modules\class-utils\LICENSE
+		node_modules\class-utils\package.json = node_modules\class-utils\package.json
+		node_modules\class-utils\README.md = node_modules\class-utils\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{65D5B5D0-DFBF-4522-A75F-C5CC542A669D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "define-property", "define-property", "{41770956-5624-435D-910D-1748618B325F}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\class-utils\node_modules\define-property\index.js = node_modules\class-utils\node_modules\define-property\index.js
+		node_modules\class-utils\node_modules\define-property\LICENSE = node_modules\class-utils\node_modules\define-property\LICENSE
+		node_modules\class-utils\node_modules\define-property\package.json = node_modules\class-utils\node_modules\define-property\package.json
+		node_modules\class-utils\node_modules\define-property\README.md = node_modules\class-utils\node_modules\define-property\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cli-cursor", "cli-cursor", "{9CD8F2DD-507F-4717-AED7-8E91874932C7}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cli-cursor\index.js = node_modules\cli-cursor\index.js
+		node_modules\cli-cursor\license = node_modules\cli-cursor\license
+		node_modules\cli-cursor\package.json = node_modules\cli-cursor\package.json
+		node_modules\cli-cursor\readme.md = node_modules\cli-cursor\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cli-width", "cli-width", "{D75471CC-3D8F-453A-8FA1-20BAA3692001}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cli-width\.npmignore = node_modules\cli-width\.npmignore
+		node_modules\cli-width\.travis.yml = node_modules\cli-width\.travis.yml
+		node_modules\cli-width\CHANGELOG.md = node_modules\cli-width\CHANGELOG.md
+		node_modules\cli-width\index.js = node_modules\cli-width\index.js
+		node_modules\cli-width\LICENSE = node_modules\cli-width\LICENSE
+		node_modules\cli-width\package.json = node_modules\cli-width\package.json
+		node_modules\cli-width\README.md = node_modules\cli-width\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cliui", "cliui", "{971B99DF-ED3A-48F2-8FEA-7BD1C76B2110}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cliui\CHANGELOG.md = node_modules\cliui\CHANGELOG.md
+		node_modules\cliui\index.js = node_modules\cliui\index.js
+		node_modules\cliui\LICENSE.txt = node_modules\cliui\LICENSE.txt
+		node_modules\cliui\package.json = node_modules\cliui\package.json
+		node_modules\cliui\README.md = node_modules\cliui\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{250896F8-F4A9-4E6D-9A8C-2BA22A402858}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "string-width", "string-width", "{8D1173CD-A2FF-459E-99B6-9BEAFDDA8D5F}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cliui\node_modules\string-width\index.js = node_modules\cliui\node_modules\string-width\index.js
+		node_modules\cliui\node_modules\string-width\license = node_modules\cliui\node_modules\string-width\license
+		node_modules\cliui\node_modules\string-width\package.json = node_modules\cliui\node_modules\string-width\package.json
+		node_modules\cliui\node_modules\string-width\readme.md = node_modules\cliui\node_modules\string-width\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clone", "clone", "{EF823665-EA30-42CC-8C53-101ED3F80689}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\clone\.npmignore = node_modules\clone\.npmignore
+		node_modules\clone\clone.iml = node_modules\clone\clone.iml
+		node_modules\clone\clone.js = node_modules\clone\clone.js
+		node_modules\clone\LICENSE = node_modules\clone\LICENSE
+		node_modules\clone\package.json = node_modules\clone\package.json
+		node_modules\clone\README.md = node_modules\clone\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clone-buffer", "clone-buffer", "{C107DD8F-CC75-4905-ADE9-AB8A495A07FF}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\clone-buffer\index.js = node_modules\clone-buffer\index.js
+		node_modules\clone-buffer\LICENSE = node_modules\clone-buffer\LICENSE
+		node_modules\clone-buffer\package.json = node_modules\clone-buffer\package.json
+		node_modules\clone-buffer\README.md = node_modules\clone-buffer\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clone-stats", "clone-stats", "{74CA0696-1E0A-425F-A941-0FA28D6147DD}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\clone-stats\index.js = node_modules\clone-stats\index.js
+		node_modules\clone-stats\LICENSE.md = node_modules\clone-stats\LICENSE.md
+		node_modules\clone-stats\package.json = node_modules\clone-stats\package.json
+		node_modules\clone-stats\README.md = node_modules\clone-stats\README.md
+		node_modules\clone-stats\test.js = node_modules\clone-stats\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cloneable-readable", "cloneable-readable", "{973701A3-B76A-4C47-B333-94A92CF8F79C}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cloneable-readable\.travis.yml = node_modules\cloneable-readable\.travis.yml
+		node_modules\cloneable-readable\example.js = node_modules\cloneable-readable\example.js
+		node_modules\cloneable-readable\index.js = node_modules\cloneable-readable\index.js
+		node_modules\cloneable-readable\LICENSE = node_modules\cloneable-readable\LICENSE
+		node_modules\cloneable-readable\package.json = node_modules\cloneable-readable\package.json
+		node_modules\cloneable-readable\README.md = node_modules\cloneable-readable\README.md
+		node_modules\cloneable-readable\test.js = node_modules\cloneable-readable\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{D25767DF-BFA2-4914-BA4F-73D21E284D27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "isarray", "isarray", "{AC55C044-3EF7-4032-8DBD-F034C5E91940}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cloneable-readable\node_modules\isarray\.npmignore = node_modules\cloneable-readable\node_modules\isarray\.npmignore
+		node_modules\cloneable-readable\node_modules\isarray\.travis.yml = node_modules\cloneable-readable\node_modules\isarray\.travis.yml
+		node_modules\cloneable-readable\node_modules\isarray\component.json = node_modules\cloneable-readable\node_modules\isarray\component.json
+		node_modules\cloneable-readable\node_modules\isarray\index.js = node_modules\cloneable-readable\node_modules\isarray\index.js
+		node_modules\cloneable-readable\node_modules\isarray\Makefile = node_modules\cloneable-readable\node_modules\isarray\Makefile
+		node_modules\cloneable-readable\node_modules\isarray\package.json = node_modules\cloneable-readable\node_modules\isarray\package.json
+		node_modules\cloneable-readable\node_modules\isarray\README.md = node_modules\cloneable-readable\node_modules\isarray\README.md
+		node_modules\cloneable-readable\node_modules\isarray\test.js = node_modules\cloneable-readable\node_modules\isarray\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readable-stream", "readable-stream", "{27E3BB6A-9E6B-4C42-9E3E-AABD27CCE4A1}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cloneable-readable\node_modules\readable-stream\.travis.yml = node_modules\cloneable-readable\node_modules\readable-stream\.travis.yml
+		node_modules\cloneable-readable\node_modules\readable-stream\CONTRIBUTING.md = node_modules\cloneable-readable\node_modules\readable-stream\CONTRIBUTING.md
+		node_modules\cloneable-readable\node_modules\readable-stream\duplex-browser.js = node_modules\cloneable-readable\node_modules\readable-stream\duplex-browser.js
+		node_modules\cloneable-readable\node_modules\readable-stream\duplex.js = node_modules\cloneable-readable\node_modules\readable-stream\duplex.js
+		node_modules\cloneable-readable\node_modules\readable-stream\GOVERNANCE.md = node_modules\cloneable-readable\node_modules\readable-stream\GOVERNANCE.md
+		node_modules\cloneable-readable\node_modules\readable-stream\LICENSE = node_modules\cloneable-readable\node_modules\readable-stream\LICENSE
+		node_modules\cloneable-readable\node_modules\readable-stream\package.json = node_modules\cloneable-readable\node_modules\readable-stream\package.json
+		node_modules\cloneable-readable\node_modules\readable-stream\passthrough.js = node_modules\cloneable-readable\node_modules\readable-stream\passthrough.js
+		node_modules\cloneable-readable\node_modules\readable-stream\readable-browser.js = node_modules\cloneable-readable\node_modules\readable-stream\readable-browser.js
+		node_modules\cloneable-readable\node_modules\readable-stream\readable.js = node_modules\cloneable-readable\node_modules\readable-stream\readable.js
+		node_modules\cloneable-readable\node_modules\readable-stream\README.md = node_modules\cloneable-readable\node_modules\readable-stream\README.md
+		node_modules\cloneable-readable\node_modules\readable-stream\transform.js = node_modules\cloneable-readable\node_modules\readable-stream\transform.js
+		node_modules\cloneable-readable\node_modules\readable-stream\writable-browser.js = node_modules\cloneable-readable\node_modules\readable-stream\writable-browser.js
+		node_modules\cloneable-readable\node_modules\readable-stream\writable.js = node_modules\cloneable-readable\node_modules\readable-stream\writable.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{3DADC1A9-16B7-4309-8C6F-4F1E96C25ADE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wg-meetings", "wg-meetings", "{BA9B5A0D-0BB3-4BB4-BFDA-9E51BE7734A3}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cloneable-readable\node_modules\readable-stream\doc\wg-meetings\2015-01-30.md = node_modules\cloneable-readable\node_modules\readable-stream\doc\wg-meetings\2015-01-30.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{79D051C7-AE86-4461-82FA-4BEF91D32546}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cloneable-readable\node_modules\readable-stream\lib\_stream_duplex.js = node_modules\cloneable-readable\node_modules\readable-stream\lib\_stream_duplex.js
+		node_modules\cloneable-readable\node_modules\readable-stream\lib\_stream_passthrough.js = node_modules\cloneable-readable\node_modules\readable-stream\lib\_stream_passthrough.js
+		node_modules\cloneable-readable\node_modules\readable-stream\lib\_stream_readable.js = node_modules\cloneable-readable\node_modules\readable-stream\lib\_stream_readable.js
+		node_modules\cloneable-readable\node_modules\readable-stream\lib\_stream_transform.js = node_modules\cloneable-readable\node_modules\readable-stream\lib\_stream_transform.js
+		node_modules\cloneable-readable\node_modules\readable-stream\lib\_stream_writable.js = node_modules\cloneable-readable\node_modules\readable-stream\lib\_stream_writable.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "internal", "internal", "{2CDFED54-6D05-4501-B85E-F897102A05E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "streams", "streams", "{234D6178-9337-4B7C-AA1E-1C7647DA77F2}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cloneable-readable\node_modules\readable-stream\lib\internal\streams\BufferList.js = node_modules\cloneable-readable\node_modules\readable-stream\lib\internal\streams\BufferList.js
+		node_modules\cloneable-readable\node_modules\readable-stream\lib\internal\streams\destroy.js = node_modules\cloneable-readable\node_modules\readable-stream\lib\internal\streams\destroy.js
+		node_modules\cloneable-readable\node_modules\readable-stream\lib\internal\streams\stream-browser.js = node_modules\cloneable-readable\node_modules\readable-stream\lib\internal\streams\stream-browser.js
+		node_modules\cloneable-readable\node_modules\readable-stream\lib\internal\streams\stream.js = node_modules\cloneable-readable\node_modules\readable-stream\lib\internal\streams\stream.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "string_decoder", "string_decoder", "{09B02DB4-C9C3-4296-99F5-474A01A39F83}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cloneable-readable\node_modules\string_decoder\.travis.yml = node_modules\cloneable-readable\node_modules\string_decoder\.travis.yml
+		node_modules\cloneable-readable\node_modules\string_decoder\LICENSE = node_modules\cloneable-readable\node_modules\string_decoder\LICENSE
+		node_modules\cloneable-readable\node_modules\string_decoder\package.json = node_modules\cloneable-readable\node_modules\string_decoder\package.json
+		node_modules\cloneable-readable\node_modules\string_decoder\README.md = node_modules\cloneable-readable\node_modules\string_decoder\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{B7178CAF-F797-4158-8837-C94034556B42}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cloneable-readable\node_modules\string_decoder\lib\string_decoder.js = node_modules\cloneable-readable\node_modules\string_decoder\lib\string_decoder.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "co", "co", "{BEA4DA9D-E1A9-441F-9A85-5CDF8C3A3CFB}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\co\History.md = node_modules\co\History.md
+		node_modules\co\index.js = node_modules\co\index.js
+		node_modules\co\LICENSE = node_modules\co\LICENSE
+		node_modules\co\package.json = node_modules\co\package.json
+		node_modules\co\Readme.md = node_modules\co\Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "code-point-at", "code-point-at", "{A9D7A921-E149-4137-B47B-F488017683C7}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\code-point-at\index.js = node_modules\code-point-at\index.js
+		node_modules\code-point-at\license = node_modules\code-point-at\license
+		node_modules\code-point-at\package.json = node_modules\code-point-at\package.json
+		node_modules\code-point-at\readme.md = node_modules\code-point-at\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "collection-visit", "collection-visit", "{EDCF2CB7-E6EB-4775-A824-5109F18B8789}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\collection-visit\index.js = node_modules\collection-visit\index.js
+		node_modules\collection-visit\LICENSE = node_modules\collection-visit\LICENSE
+		node_modules\collection-visit\package.json = node_modules\collection-visit\package.json
+		node_modules\collection-visit\README.md = node_modules\collection-visit\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "color-convert", "color-convert", "{5FAEB505-8CB9-45A0-8A3B-2145E5BD8F1B}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\color-convert\CHANGELOG.md = node_modules\color-convert\CHANGELOG.md
+		node_modules\color-convert\conversions.js = node_modules\color-convert\conversions.js
+		node_modules\color-convert\index.js = node_modules\color-convert\index.js
+		node_modules\color-convert\LICENSE = node_modules\color-convert\LICENSE
+		node_modules\color-convert\package.json = node_modules\color-convert\package.json
+		node_modules\color-convert\README.md = node_modules\color-convert\README.md
+		node_modules\color-convert\route.js = node_modules\color-convert\route.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "color-name", "color-name", "{51DD6E5B-B200-40E2-96DE-B6EA60D75B9D}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\color-name\.eslintrc.json = node_modules\color-name\.eslintrc.json
+		node_modules\color-name\.npmignore = node_modules\color-name\.npmignore
+		node_modules\color-name\index.js = node_modules\color-name\index.js
+		node_modules\color-name\LICENSE = node_modules\color-name\LICENSE
+		node_modules\color-name\package.json = node_modules\color-name\package.json
+		node_modules\color-name\README.md = node_modules\color-name\README.md
+		node_modules\color-name\test.js = node_modules\color-name\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "color-support", "color-support", "{C012B023-165D-4D39-82ED-15B2EA9ADDD6}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\color-support\bin.js = node_modules\color-support\bin.js
+		node_modules\color-support\browser.js = node_modules\color-support\browser.js
+		node_modules\color-support\index.js = node_modules\color-support\index.js
+		node_modules\color-support\LICENSE = node_modules\color-support\LICENSE
+		node_modules\color-support\package.json = node_modules\color-support\package.json
+		node_modules\color-support\README.md = node_modules\color-support\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "commander", "commander", "{E39C07E9-6400-4418-AFDC-AC190591A2E2}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\commander\CHANGELOG.md = node_modules\commander\CHANGELOG.md
+		node_modules\commander\index.js = node_modules\commander\index.js
+		node_modules\commander\LICENSE = node_modules\commander\LICENSE
+		node_modules\commander\package.json = node_modules\commander\package.json
+		node_modules\commander\Readme.md = node_modules\commander\Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "typings", "typings", "{25081BF3-3C80-45F2-A069-66D8C775EAAF}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\commander\typings\index.d.ts = node_modules\commander\typings\index.d.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "component-emitter", "component-emitter", "{FCA268BB-9211-404E-8305-895B5A01404B}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\component-emitter\History.md = node_modules\component-emitter\History.md
+		node_modules\component-emitter\index.js = node_modules\component-emitter\index.js
+		node_modules\component-emitter\LICENSE = node_modules\component-emitter\LICENSE
+		node_modules\component-emitter\package.json = node_modules\component-emitter\package.json
+		node_modules\component-emitter\Readme.md = node_modules\component-emitter\Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "concat-map", "concat-map", "{AFCD54B6-E78D-4C10-90BA-6DDD8135468F}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-map\.travis.yml = node_modules\concat-map\.travis.yml
+		node_modules\concat-map\index.js = node_modules\concat-map\index.js
+		node_modules\concat-map\LICENSE = node_modules\concat-map\LICENSE
+		node_modules\concat-map\package.json = node_modules\concat-map\package.json
+		node_modules\concat-map\README.markdown = node_modules\concat-map\README.markdown
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{C5F78859-4239-479E-80AA-3CBE42509348}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-map\example\map.js = node_modules\concat-map\example\map.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A2004251-16E3-4B04-82DD-E3454E3034AE}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-map\test\map.js = node_modules\concat-map\test\map.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "concat-stream", "concat-stream", "{4E002A5A-4EC1-4A17-9346-D3325008D9B8}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-stream\index.js = node_modules\concat-stream\index.js
+		node_modules\concat-stream\LICENSE = node_modules\concat-stream\LICENSE
+		node_modules\concat-stream\package.json = node_modules\concat-stream\package.json
+		node_modules\concat-stream\readme.md = node_modules\concat-stream\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{94822B64-0EBF-48DC-A68D-0929EFF60E54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "isarray", "isarray", "{D8EFDFA2-77C5-4C5D-A9E3-28D0D1FF2F18}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-stream\node_modules\isarray\.npmignore = node_modules\concat-stream\node_modules\isarray\.npmignore
+		node_modules\concat-stream\node_modules\isarray\.travis.yml = node_modules\concat-stream\node_modules\isarray\.travis.yml
+		node_modules\concat-stream\node_modules\isarray\component.json = node_modules\concat-stream\node_modules\isarray\component.json
+		node_modules\concat-stream\node_modules\isarray\index.js = node_modules\concat-stream\node_modules\isarray\index.js
+		node_modules\concat-stream\node_modules\isarray\Makefile = node_modules\concat-stream\node_modules\isarray\Makefile
+		node_modules\concat-stream\node_modules\isarray\package.json = node_modules\concat-stream\node_modules\isarray\package.json
+		node_modules\concat-stream\node_modules\isarray\README.md = node_modules\concat-stream\node_modules\isarray\README.md
+		node_modules\concat-stream\node_modules\isarray\test.js = node_modules\concat-stream\node_modules\isarray\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readable-stream", "readable-stream", "{1C46820B-1703-4E9F-A242-E36FDA5C1503}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-stream\node_modules\readable-stream\.travis.yml = node_modules\concat-stream\node_modules\readable-stream\.travis.yml
+		node_modules\concat-stream\node_modules\readable-stream\CONTRIBUTING.md = node_modules\concat-stream\node_modules\readable-stream\CONTRIBUTING.md
+		node_modules\concat-stream\node_modules\readable-stream\duplex-browser.js = node_modules\concat-stream\node_modules\readable-stream\duplex-browser.js
+		node_modules\concat-stream\node_modules\readable-stream\duplex.js = node_modules\concat-stream\node_modules\readable-stream\duplex.js
+		node_modules\concat-stream\node_modules\readable-stream\GOVERNANCE.md = node_modules\concat-stream\node_modules\readable-stream\GOVERNANCE.md
+		node_modules\concat-stream\node_modules\readable-stream\LICENSE = node_modules\concat-stream\node_modules\readable-stream\LICENSE
+		node_modules\concat-stream\node_modules\readable-stream\package.json = node_modules\concat-stream\node_modules\readable-stream\package.json
+		node_modules\concat-stream\node_modules\readable-stream\passthrough.js = node_modules\concat-stream\node_modules\readable-stream\passthrough.js
+		node_modules\concat-stream\node_modules\readable-stream\readable-browser.js = node_modules\concat-stream\node_modules\readable-stream\readable-browser.js
+		node_modules\concat-stream\node_modules\readable-stream\readable.js = node_modules\concat-stream\node_modules\readable-stream\readable.js
+		node_modules\concat-stream\node_modules\readable-stream\README.md = node_modules\concat-stream\node_modules\readable-stream\README.md
+		node_modules\concat-stream\node_modules\readable-stream\transform.js = node_modules\concat-stream\node_modules\readable-stream\transform.js
+		node_modules\concat-stream\node_modules\readable-stream\writable-browser.js = node_modules\concat-stream\node_modules\readable-stream\writable-browser.js
+		node_modules\concat-stream\node_modules\readable-stream\writable.js = node_modules\concat-stream\node_modules\readable-stream\writable.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{11C0ABF1-B984-40E3-9147-BF6F976E299A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wg-meetings", "wg-meetings", "{DC912B09-3771-46D3-93FD-7B25CBEFA53C}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-stream\node_modules\readable-stream\doc\wg-meetings\2015-01-30.md = node_modules\concat-stream\node_modules\readable-stream\doc\wg-meetings\2015-01-30.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{024E02BB-A860-48EE-9291-878AD7FB3678}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-stream\node_modules\readable-stream\lib\_stream_duplex.js = node_modules\concat-stream\node_modules\readable-stream\lib\_stream_duplex.js
+		node_modules\concat-stream\node_modules\readable-stream\lib\_stream_passthrough.js = node_modules\concat-stream\node_modules\readable-stream\lib\_stream_passthrough.js
+		node_modules\concat-stream\node_modules\readable-stream\lib\_stream_readable.js = node_modules\concat-stream\node_modules\readable-stream\lib\_stream_readable.js
+		node_modules\concat-stream\node_modules\readable-stream\lib\_stream_transform.js = node_modules\concat-stream\node_modules\readable-stream\lib\_stream_transform.js
+		node_modules\concat-stream\node_modules\readable-stream\lib\_stream_writable.js = node_modules\concat-stream\node_modules\readable-stream\lib\_stream_writable.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "internal", "internal", "{AF77A06B-F3B7-4045-9F7C-6F84C1AE8D2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "streams", "streams", "{60839B59-4D9C-4E48-836B-D68C37B802A2}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-stream\node_modules\readable-stream\lib\internal\streams\BufferList.js = node_modules\concat-stream\node_modules\readable-stream\lib\internal\streams\BufferList.js
+		node_modules\concat-stream\node_modules\readable-stream\lib\internal\streams\destroy.js = node_modules\concat-stream\node_modules\readable-stream\lib\internal\streams\destroy.js
+		node_modules\concat-stream\node_modules\readable-stream\lib\internal\streams\stream-browser.js = node_modules\concat-stream\node_modules\readable-stream\lib\internal\streams\stream-browser.js
+		node_modules\concat-stream\node_modules\readable-stream\lib\internal\streams\stream.js = node_modules\concat-stream\node_modules\readable-stream\lib\internal\streams\stream.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "string_decoder", "string_decoder", "{501DFCAD-50AF-4955-92A9-A1089AA78C33}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-stream\node_modules\string_decoder\.travis.yml = node_modules\concat-stream\node_modules\string_decoder\.travis.yml
+		node_modules\concat-stream\node_modules\string_decoder\LICENSE = node_modules\concat-stream\node_modules\string_decoder\LICENSE
+		node_modules\concat-stream\node_modules\string_decoder\package.json = node_modules\concat-stream\node_modules\string_decoder\package.json
+		node_modules\concat-stream\node_modules\string_decoder\README.md = node_modules\concat-stream\node_modules\string_decoder\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{3636D12C-8D88-4FE0-9615-85871D44A439}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-stream\node_modules\string_decoder\lib\string_decoder.js = node_modules\concat-stream\node_modules\string_decoder\lib\string_decoder.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "concat-with-sourcemaps", "concat-with-sourcemaps", "{87117D89-9363-4DE8-A026-2DE06A706F08}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-with-sourcemaps\index.d.ts = node_modules\concat-with-sourcemaps\index.d.ts
+		node_modules\concat-with-sourcemaps\index.js = node_modules\concat-with-sourcemaps\index.js
+		node_modules\concat-with-sourcemaps\LICENSE.md = node_modules\concat-with-sourcemaps\LICENSE.md
+		node_modules\concat-with-sourcemaps\package.json = node_modules\concat-with-sourcemaps\package.json
+		node_modules\concat-with-sourcemaps\README.md = node_modules\concat-with-sourcemaps\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{8EFB1D43-1E85-479C-92EB-526BA229E74E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source-map", "source-map", "{B546917D-6A69-4CCF-9FAB-06214925E7EB}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-with-sourcemaps\node_modules\source-map\CHANGELOG.md = node_modules\concat-with-sourcemaps\node_modules\source-map\CHANGELOG.md
+		node_modules\concat-with-sourcemaps\node_modules\source-map\LICENSE = node_modules\concat-with-sourcemaps\node_modules\source-map\LICENSE
+		node_modules\concat-with-sourcemaps\node_modules\source-map\package.json = node_modules\concat-with-sourcemaps\node_modules\source-map\package.json
+		node_modules\concat-with-sourcemaps\node_modules\source-map\README.md = node_modules\concat-with-sourcemaps\node_modules\source-map\README.md
+		node_modules\concat-with-sourcemaps\node_modules\source-map\source-map.d.ts = node_modules\concat-with-sourcemaps\node_modules\source-map\source-map.d.ts
+		node_modules\concat-with-sourcemaps\node_modules\source-map\source-map.js = node_modules\concat-with-sourcemaps\node_modules\source-map\source-map.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{754DACFF-BFA6-4010-822C-A988301A11BA}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-with-sourcemaps\node_modules\source-map\dist\source-map.debug.js = node_modules\concat-with-sourcemaps\node_modules\source-map\dist\source-map.debug.js
+		node_modules\concat-with-sourcemaps\node_modules\source-map\dist\source-map.js = node_modules\concat-with-sourcemaps\node_modules\source-map\dist\source-map.js
+		node_modules\concat-with-sourcemaps\node_modules\source-map\dist\source-map.min.js = node_modules\concat-with-sourcemaps\node_modules\source-map\dist\source-map.min.js
+		node_modules\concat-with-sourcemaps\node_modules\source-map\dist\source-map.min.js.map = node_modules\concat-with-sourcemaps\node_modules\source-map\dist\source-map.min.js.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{AB932AAB-33BA-429C-A33E-A7AE9F4199D4}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\concat-with-sourcemaps\node_modules\source-map\lib\array-set.js = node_modules\concat-with-sourcemaps\node_modules\source-map\lib\array-set.js
+		node_modules\concat-with-sourcemaps\node_modules\source-map\lib\base64-vlq.js = node_modules\concat-with-sourcemaps\node_modules\source-map\lib\base64-vlq.js
+		node_modules\concat-with-sourcemaps\node_modules\source-map\lib\base64.js = node_modules\concat-with-sourcemaps\node_modules\source-map\lib\base64.js
+		node_modules\concat-with-sourcemaps\node_modules\source-map\lib\binary-search.js = node_modules\concat-with-sourcemaps\node_modules\source-map\lib\binary-search.js
+		node_modules\concat-with-sourcemaps\node_modules\source-map\lib\mapping-list.js = node_modules\concat-with-sourcemaps\node_modules\source-map\lib\mapping-list.js
+		node_modules\concat-with-sourcemaps\node_modules\source-map\lib\quick-sort.js = node_modules\concat-with-sourcemaps\node_modules\source-map\lib\quick-sort.js
+		node_modules\concat-with-sourcemaps\node_modules\source-map\lib\source-map-consumer.js = node_modules\concat-with-sourcemaps\node_modules\source-map\lib\source-map-consumer.js
+		node_modules\concat-with-sourcemaps\node_modules\source-map\lib\source-map-generator.js = node_modules\concat-with-sourcemaps\node_modules\source-map\lib\source-map-generator.js
+		node_modules\concat-with-sourcemaps\node_modules\source-map\lib\source-node.js = node_modules\concat-with-sourcemaps\node_modules\source-map\lib\source-node.js
+		node_modules\concat-with-sourcemaps\node_modules\source-map\lib\util.js = node_modules\concat-with-sourcemaps\node_modules\source-map\lib\util.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "convert-source-map", "convert-source-map", "{7BA97514-2DF6-430B-8913-57BEF4961827}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\convert-source-map\index.js = node_modules\convert-source-map\index.js
+		node_modules\convert-source-map\LICENSE = node_modules\convert-source-map\LICENSE
+		node_modules\convert-source-map\package.json = node_modules\convert-source-map\package.json
+		node_modules\convert-source-map\README.md = node_modules\convert-source-map\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "copy-descriptor", "copy-descriptor", "{0893C69A-DA52-46E7-B6FB-0BCF473E1EBA}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\copy-descriptor\index.js = node_modules\copy-descriptor\index.js
+		node_modules\copy-descriptor\LICENSE = node_modules\copy-descriptor\LICENSE
+		node_modules\copy-descriptor\package.json = node_modules\copy-descriptor\package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core-util-is", "core-util-is", "{CD909AC4-A17B-4299-B511-B54E54FAFEAF}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\core-util-is\float.patch = node_modules\core-util-is\float.patch
+		node_modules\core-util-is\LICENSE = node_modules\core-util-is\LICENSE
+		node_modules\core-util-is\package.json = node_modules\core-util-is\package.json
+		node_modules\core-util-is\README.md = node_modules\core-util-is\README.md
+		node_modules\core-util-is\test.js = node_modules\core-util-is\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{59E54BE1-8B05-477A-8E8A-4C6000015653}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\core-util-is\lib\util.js = node_modules\core-util-is\lib\util.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cross-spawn", "cross-spawn", "{EB8907B5-C432-43F4-A93D-2ECED8B86A3D}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cross-spawn\CHANGELOG.md = node_modules\cross-spawn\CHANGELOG.md
+		node_modules\cross-spawn\index.js = node_modules\cross-spawn\index.js
+		node_modules\cross-spawn\LICENSE = node_modules\cross-spawn\LICENSE
+		node_modules\cross-spawn\package.json = node_modules\cross-spawn\package.json
+		node_modules\cross-spawn\README.md = node_modules\cross-spawn\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{1F8C791C-B9C9-414D-B882-8F22B7AD158D}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cross-spawn\lib\enoent.js = node_modules\cross-spawn\lib\enoent.js
+		node_modules\cross-spawn\lib\parse.js = node_modules\cross-spawn\lib\parse.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "util", "util", "{899497CD-58E0-4F56-B2F8-276FB8C92C46}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cross-spawn\lib\util\escapeArgument.js = node_modules\cross-spawn\lib\util\escapeArgument.js
+		node_modules\cross-spawn\lib\util\escapeCommand.js = node_modules\cross-spawn\lib\util\escapeCommand.js
+		node_modules\cross-spawn\lib\util\hasEmptyArgumentBug.js = node_modules\cross-spawn\lib\util\hasEmptyArgumentBug.js
+		node_modules\cross-spawn\lib\util\readShebang.js = node_modules\cross-spawn\lib\util\readShebang.js
+		node_modules\cross-spawn\lib\util\resolveCommand.js = node_modules\cross-spawn\lib\util\resolveCommand.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{4C799834-D234-49CC-92C2-15734C2DC704}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lru-cache", "lru-cache", "{0053C072-6E53-4300-BE17-5E7DE4A0BC91}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\cross-spawn\node_modules\lru-cache\index.js = node_modules\cross-spawn\node_modules\lru-cache\index.js
+		node_modules\cross-spawn\node_modules\lru-cache\LICENSE = node_modules\cross-spawn\node_modules\lru-cache\LICENSE
+		node_modules\cross-spawn\node_modules\lru-cache\package.json = node_modules\cross-spawn\node_modules\lru-cache\package.json
+		node_modules\cross-spawn\node_modules\lru-cache\README.md = node_modules\cross-spawn\node_modules\lru-cache\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{A56A22B6-EF77-4DEB-9C4D-5D2956F03BF7}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\css\History.md = node_modules\css\History.md
+		node_modules\css\index.js = node_modules\css\index.js
+		node_modules\css\LICENSE = node_modules\css\LICENSE
+		node_modules\css\package.json = node_modules\css\package.json
+		node_modules\css\Readme.md = node_modules\css\Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{7B73B23E-9506-40D5-87DA-EA7C91E41874}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "parse", "parse", "{7559FC5A-E295-4BE6-AC32-CC0A096121E3}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\css\lib\parse\index.js = node_modules\css\lib\parse\index.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stringify", "stringify", "{2477A7E1-BF63-4021-91B2-63B08C4085A9}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\css\lib\stringify\compiler.js = node_modules\css\lib\stringify\compiler.js
+		node_modules\css\lib\stringify\compress.js = node_modules\css\lib\stringify\compress.js
+		node_modules\css\lib\stringify\identity.js = node_modules\css\lib\stringify\identity.js
+		node_modules\css\lib\stringify\index.js = node_modules\css\lib\stringify\index.js
+		node_modules\css\lib\stringify\source-map-support.js = node_modules\css\lib\stringify\source-map-support.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{80A81C68-1AD0-4FDA-9A31-377EDCFFA0A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source-map", "source-map", "{2BB3757C-E3F8-4AB2-91E4-9FD43E4980C4}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\css\node_modules\source-map\.npmignore = node_modules\css\node_modules\source-map\.npmignore
+		node_modules\css\node_modules\source-map\.travis.yml = node_modules\css\node_modules\source-map\.travis.yml
+		node_modules\css\node_modules\source-map\CHANGELOG.md = node_modules\css\node_modules\source-map\CHANGELOG.md
+		node_modules\css\node_modules\source-map\LICENSE = node_modules\css\node_modules\source-map\LICENSE
+		node_modules\css\node_modules\source-map\Makefile.dryice.js = node_modules\css\node_modules\source-map\Makefile.dryice.js
+		node_modules\css\node_modules\source-map\package.json = node_modules\css\node_modules\source-map\package.json
+		node_modules\css\node_modules\source-map\README.md = node_modules\css\node_modules\source-map\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{0FE68E16-FF21-496C-BE4B-FDCB1730298A}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\css\node_modules\source-map\build\assert-shim.js = node_modules\css\node_modules\source-map\build\assert-shim.js
+		node_modules\css\node_modules\source-map\build\mini-require.js = node_modules\css\node_modules\source-map\build\mini-require.js
+		node_modules\css\node_modules\source-map\build\prefix-source-map.jsm = node_modules\css\node_modules\source-map\build\prefix-source-map.jsm
+		node_modules\css\node_modules\source-map\build\prefix-utils.jsm = node_modules\css\node_modules\source-map\build\prefix-utils.jsm
+		node_modules\css\node_modules\source-map\build\suffix-browser.js = node_modules\css\node_modules\source-map\build\suffix-browser.js
+		node_modules\css\node_modules\source-map\build\suffix-source-map.jsm = node_modules\css\node_modules\source-map\build\suffix-source-map.jsm
+		node_modules\css\node_modules\source-map\build\suffix-utils.jsm = node_modules\css\node_modules\source-map\build\suffix-utils.jsm
+		node_modules\css\node_modules\source-map\build\test-prefix.js = node_modules\css\node_modules\source-map\build\test-prefix.js
+		node_modules\css\node_modules\source-map\build\test-suffix.js = node_modules\css\node_modules\source-map\build\test-suffix.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{6F938D4A-1346-487F-84B0-79F47DDB1DEF}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\css\node_modules\source-map\lib\source-map.js = node_modules\css\node_modules\source-map\lib\source-map.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source-map", "source-map", "{23A698A3-6AFC-4D32-AA54-46C479C32DDD}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\css\node_modules\source-map\lib\source-map\array-set.js = node_modules\css\node_modules\source-map\lib\source-map\array-set.js
+		node_modules\css\node_modules\source-map\lib\source-map\base64-vlq.js = node_modules\css\node_modules\source-map\lib\source-map\base64-vlq.js
+		node_modules\css\node_modules\source-map\lib\source-map\base64.js = node_modules\css\node_modules\source-map\lib\source-map\base64.js
+		node_modules\css\node_modules\source-map\lib\source-map\binary-search.js = node_modules\css\node_modules\source-map\lib\source-map\binary-search.js
+		node_modules\css\node_modules\source-map\lib\source-map\mapping-list.js = node_modules\css\node_modules\source-map\lib\source-map\mapping-list.js
+		node_modules\css\node_modules\source-map\lib\source-map\source-map-consumer.js = node_modules\css\node_modules\source-map\lib\source-map\source-map-consumer.js
+		node_modules\css\node_modules\source-map\lib\source-map\source-map-generator.js = node_modules\css\node_modules\source-map\lib\source-map\source-map-generator.js
+		node_modules\css\node_modules\source-map\lib\source-map\source-node.js = node_modules\css\node_modules\source-map\lib\source-map\source-node.js
+		node_modules\css\node_modules\source-map\lib\source-map\util.js = node_modules\css\node_modules\source-map\lib\source-map\util.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{537B5511-B72C-457F-84CE-92DFF514165F}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\css\node_modules\source-map\test\run-tests.js = node_modules\css\node_modules\source-map\test\run-tests.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source-map", "source-map", "{74A18FB0-13A0-4603-85E3-6482AF581357}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\css\node_modules\source-map\test\source-map\test-api.js = node_modules\css\node_modules\source-map\test\source-map\test-api.js
+		node_modules\css\node_modules\source-map\test\source-map\test-array-set.js = node_modules\css\node_modules\source-map\test\source-map\test-array-set.js
+		node_modules\css\node_modules\source-map\test\source-map\test-base64-vlq.js = node_modules\css\node_modules\source-map\test\source-map\test-base64-vlq.js
+		node_modules\css\node_modules\source-map\test\source-map\test-base64.js = node_modules\css\node_modules\source-map\test\source-map\test-base64.js
+		node_modules\css\node_modules\source-map\test\source-map\test-binary-search.js = node_modules\css\node_modules\source-map\test\source-map\test-binary-search.js
+		node_modules\css\node_modules\source-map\test\source-map\test-dog-fooding.js = node_modules\css\node_modules\source-map\test\source-map\test-dog-fooding.js
+		node_modules\css\node_modules\source-map\test\source-map\test-source-map-consumer.js = node_modules\css\node_modules\source-map\test\source-map\test-source-map-consumer.js
+		node_modules\css\node_modules\source-map\test\source-map\test-source-map-generator.js = node_modules\css\node_modules\source-map\test\source-map\test-source-map-generator.js
+		node_modules\css\node_modules\source-map\test\source-map\test-source-node.js = node_modules\css\node_modules\source-map\test\source-map\test-source-node.js
+		node_modules\css\node_modules\source-map\test\source-map\test-util.js = node_modules\css\node_modules\source-map\test\source-map\test-util.js
+		node_modules\css\node_modules\source-map\test\source-map\util.js = node_modules\css\node_modules\source-map\test\source-map\util.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "d", "d", "{2EF3F691-92E7-4ADF-AFE2-EC15F66D9964}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\d\.lint = node_modules\d\.lint
+		node_modules\d\.npmignore = node_modules\d\.npmignore
+		node_modules\d\.travis.yml = node_modules\d\.travis.yml
+		node_modules\d\auto-bind.js = node_modules\d\auto-bind.js
+		node_modules\d\CHANGES = node_modules\d\CHANGES
+		node_modules\d\index.js = node_modules\d\index.js
+		node_modules\d\lazy.js = node_modules\d\lazy.js
+		node_modules\d\LICENSE = node_modules\d\LICENSE
+		node_modules\d\package.json = node_modules\d\package.json
+		node_modules\d\README.md = node_modules\d\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D6DD4469-BE7D-4274-8F9E-4C3B23FCD8D2}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\d\test\auto-bind.js = node_modules\d\test\auto-bind.js
+		node_modules\d\test\index.js = node_modules\d\test\index.js
+		node_modules\d\test\lazy.js = node_modules\d\test\lazy.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dateformat", "dateformat", "{A35BD9A0-D2D7-4FA0-8773-D10E37374675}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\dateformat\.npmignore = node_modules\dateformat\.npmignore
+		node_modules\dateformat\LICENSE = node_modules\dateformat\LICENSE
+		node_modules\dateformat\package.json = node_modules\dateformat\package.json
+		node_modules\dateformat\Readme.md = node_modules\dateformat\Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".vs", ".vs", "{CBFE89C0-AC52-4923-9A61-71AAA73E3CA7}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\dateformat\.vs\ProjectSettings.json = node_modules\dateformat\.vs\ProjectSettings.json
+		node_modules\dateformat\.vs\slnx.sqlite = node_modules\dateformat\.vs\slnx.sqlite
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{FEECD578-A8CE-413B-888F-E3B81F7B682D}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\dateformat\.vs\config\applicationhost.config = node_modules\dateformat\.vs\config\applicationhost.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node-dateformat", "node-dateformat", "{45094370-1EF3-49E5-B125-1A3FF06ED3EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v15", "v15", "{4EB07F43-93C9-437E-85F9-5DBBCC93CF6C}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\dateformat\.vs\node-dateformat\v15\.suo = node_modules\dateformat\.vs\node-dateformat\v15\.suo
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{5A572BF7-19B7-4B03-9536-22EFB08F4442}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\dateformat\lib\dateformat.js = node_modules\dateformat\lib\dateformat.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "debug", "debug", "{A797C72C-176C-4925-8354-D7DB4174EEC6}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\debug\.coveralls.yml = node_modules\debug\.coveralls.yml
+		node_modules\debug\.eslintrc = node_modules\debug\.eslintrc
+		node_modules\debug\.npmignore = node_modules\debug\.npmignore
+		node_modules\debug\.travis.yml = node_modules\debug\.travis.yml
+		node_modules\debug\CHANGELOG.md = node_modules\debug\CHANGELOG.md
+		node_modules\debug\component.json = node_modules\debug\component.json
+		node_modules\debug\karma.conf.js = node_modules\debug\karma.conf.js
+		node_modules\debug\LICENSE = node_modules\debug\LICENSE
+		node_modules\debug\Makefile = node_modules\debug\Makefile
+		node_modules\debug\node.js = node_modules\debug\node.js
+		node_modules\debug\package.json = node_modules\debug\package.json
+		node_modules\debug\README.md = node_modules\debug\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C5DAC4A3-3AE1-48A3-95B9-85777E97C92E}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\debug\src\browser.js = node_modules\debug\src\browser.js
+		node_modules\debug\src\debug.js = node_modules\debug\src\debug.js
+		node_modules\debug\src\index.js = node_modules\debug\src\index.js
+		node_modules\debug\src\inspector-log.js = node_modules\debug\src\inspector-log.js
+		node_modules\debug\src\node.js = node_modules\debug\src\node.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "debug-fabulous", "debug-fabulous", "{466A5E00-FAC7-42F3-A0BE-14F0F89BF262}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\debug-fabulous\index.js = node_modules\debug-fabulous\index.js
+		node_modules\debug-fabulous\LICENSE = node_modules\debug-fabulous\LICENSE
+		node_modules\debug-fabulous\package.json = node_modules\debug-fabulous\package.json
+		node_modules\debug-fabulous\README.md = node_modules\debug-fabulous\README.md
+		node_modules\debug-fabulous\yarn-error.log = node_modules\debug-fabulous\yarn-error.log
+		node_modules\debug-fabulous\yarn.lock = node_modules\debug-fabulous\yarn.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{76AB462D-EE9D-4C4B-92C9-8B3D8AEC2DBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "debug", "debug", "{33A3B3C4-F80C-4DF2-95D3-87692602FC22}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\debug-fabulous\node_modules\debug\.coveralls.yml = node_modules\debug-fabulous\node_modules\debug\.coveralls.yml
+		node_modules\debug-fabulous\node_modules\debug\.eslintrc = node_modules\debug-fabulous\node_modules\debug\.eslintrc
+		node_modules\debug-fabulous\node_modules\debug\.npmignore = node_modules\debug-fabulous\node_modules\debug\.npmignore
+		node_modules\debug-fabulous\node_modules\debug\.travis.yml = node_modules\debug-fabulous\node_modules\debug\.travis.yml
+		node_modules\debug-fabulous\node_modules\debug\CHANGELOG.md = node_modules\debug-fabulous\node_modules\debug\CHANGELOG.md
+		node_modules\debug-fabulous\node_modules\debug\karma.conf.js = node_modules\debug-fabulous\node_modules\debug\karma.conf.js
+		node_modules\debug-fabulous\node_modules\debug\LICENSE = node_modules\debug-fabulous\node_modules\debug\LICENSE
+		node_modules\debug-fabulous\node_modules\debug\Makefile = node_modules\debug-fabulous\node_modules\debug\Makefile
+		node_modules\debug-fabulous\node_modules\debug\node.js = node_modules\debug-fabulous\node_modules\debug\node.js
+		node_modules\debug-fabulous\node_modules\debug\package.json = node_modules\debug-fabulous\node_modules\debug\package.json
+		node_modules\debug-fabulous\node_modules\debug\README.md = node_modules\debug-fabulous\node_modules\debug\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{56C93B08-DA03-409E-AC12-5610A62F2FA0}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\debug-fabulous\node_modules\debug\src\browser.js = node_modules\debug-fabulous\node_modules\debug\src\browser.js
+		node_modules\debug-fabulous\node_modules\debug\src\debug.js = node_modules\debug-fabulous\node_modules\debug\src\debug.js
+		node_modules\debug-fabulous\node_modules\debug\src\index.js = node_modules\debug-fabulous\node_modules\debug\src\index.js
+		node_modules\debug-fabulous\node_modules\debug\src\node.js = node_modules\debug-fabulous\node_modules\debug\src\node.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "object-assign", "object-assign", "{73CD3C7C-ED6D-4995-8490-0E584EF6F817}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\debug-fabulous\node_modules\object-assign\index.js = node_modules\debug-fabulous\node_modules\object-assign\index.js
+		node_modules\debug-fabulous\node_modules\object-assign\license = node_modules\debug-fabulous\node_modules\object-assign\license
+		node_modules\debug-fabulous\node_modules\object-assign\package.json = node_modules\debug-fabulous\node_modules\object-assign\package.json
+		node_modules\debug-fabulous\node_modules\object-assign\readme.md = node_modules\debug-fabulous\node_modules\object-assign\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A653E634-7D78-42FE-8D98-1D6E32BDF979}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\debug-fabulous\src\debugFabFactory.js = node_modules\debug-fabulous\src\debugFabFactory.js
+		node_modules\debug-fabulous\src\formatArgs.js = node_modules\debug-fabulous\src\formatArgs.js
+		node_modules\debug-fabulous\src\lazy-eval.js = node_modules\debug-fabulous\src\lazy-eval.js
+		node_modules\debug-fabulous\src\spawn.js = node_modules\debug-fabulous\src\spawn.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "decamelize", "decamelize", "{7F01576D-1878-4C97-8764-0F84A8972B6F}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\decamelize\index.js = node_modules\decamelize\index.js
+		node_modules\decamelize\license = node_modules\decamelize\license
+		node_modules\decamelize\package.json = node_modules\decamelize\package.json
+		node_modules\decamelize\readme.md = node_modules\decamelize\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "decode-uri-component", "decode-uri-component", "{292576BE-5CCA-4A88-9A0C-0A6420F50BC7}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\decode-uri-component\index.js = node_modules\decode-uri-component\index.js
+		node_modules\decode-uri-component\license = node_modules\decode-uri-component\license
+		node_modules\decode-uri-component\package.json = node_modules\decode-uri-component\package.json
+		node_modules\decode-uri-component\readme.md = node_modules\decode-uri-component\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deep-is", "deep-is", "{4AC1D6ED-C87C-4872-BF3B-728E08AF910B}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\deep-is\.npmignore = node_modules\deep-is\.npmignore
+		node_modules\deep-is\.travis.yml = node_modules\deep-is\.travis.yml
+		node_modules\deep-is\index.js = node_modules\deep-is\index.js
+		node_modules\deep-is\LICENSE = node_modules\deep-is\LICENSE
+		node_modules\deep-is\package.json = node_modules\deep-is\package.json
+		node_modules\deep-is\README.markdown = node_modules\deep-is\README.markdown
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{FC72E540-F506-4E1B-8F03-9E89BF85EDE8}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\deep-is\example\cmp.js = node_modules\deep-is\example\cmp.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A773034B-BB19-409C-83A9-077109EE8FFE}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\deep-is\test\cmp.js = node_modules\deep-is\test\cmp.js
+		node_modules\deep-is\test\NaN.js = node_modules\deep-is\test\NaN.js
+		node_modules\deep-is\test\neg-vs-pos-0.js = node_modules\deep-is\test\neg-vs-pos-0.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "defaults", "defaults", "{1FF206F0-C2D1-437B-B278-236B02208B1C}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\defaults\.npmignore = node_modules\defaults\.npmignore
+		node_modules\defaults\index.js = node_modules\defaults\index.js
+		node_modules\defaults\LICENSE = node_modules\defaults\LICENSE
+		node_modules\defaults\package.json = node_modules\defaults\package.json
+		node_modules\defaults\README.md = node_modules\defaults\README.md
+		node_modules\defaults\test.js = node_modules\defaults\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "define-property", "define-property", "{F92E6CF0-AF0E-4E2D-914D-F04AA74CDCA1}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\define-property\CHANGELOG.md = node_modules\define-property\CHANGELOG.md
+		node_modules\define-property\index.js = node_modules\define-property\index.js
+		node_modules\define-property\LICENSE = node_modules\define-property\LICENSE
+		node_modules\define-property\package.json = node_modules\define-property\package.json
+		node_modules\define-property\README.md = node_modules\define-property\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{CF949543-F6F8-45B3-A418-9BEE301BE662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "is-accessor-descriptor", "is-accessor-descriptor", "{C5CBF844-4E47-45F1-A576-C3CCD694CB11}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\define-property\node_modules\is-accessor-descriptor\index.js = node_modules\define-property\node_modules\is-accessor-descriptor\index.js
+		node_modules\define-property\node_modules\is-accessor-descriptor\LICENSE = node_modules\define-property\node_modules\is-accessor-descriptor\LICENSE
+		node_modules\define-property\node_modules\is-accessor-descriptor\package.json = node_modules\define-property\node_modules\is-accessor-descriptor\package.json
+		node_modules\define-property\node_modules\is-accessor-descriptor\README.md = node_modules\define-property\node_modules\is-accessor-descriptor\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "is-data-descriptor", "is-data-descriptor", "{55906F31-9E89-4357-A3E4-00C554B2F0CA}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\define-property\node_modules\is-data-descriptor\index.js = node_modules\define-property\node_modules\is-data-descriptor\index.js
+		node_modules\define-property\node_modules\is-data-descriptor\LICENSE = node_modules\define-property\node_modules\is-data-descriptor\LICENSE
+		node_modules\define-property\node_modules\is-data-descriptor\package.json = node_modules\define-property\node_modules\is-data-descriptor\package.json
+		node_modules\define-property\node_modules\is-data-descriptor\README.md = node_modules\define-property\node_modules\is-data-descriptor\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "is-descriptor", "is-descriptor", "{39543EB5-6FFA-4FC6-B46B-C9D514050287}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\define-property\node_modules\is-descriptor\index.js = node_modules\define-property\node_modules\is-descriptor\index.js
+		node_modules\define-property\node_modules\is-descriptor\LICENSE = node_modules\define-property\node_modules\is-descriptor\LICENSE
+		node_modules\define-property\node_modules\is-descriptor\package.json = node_modules\define-property\node_modules\is-descriptor\package.json
+		node_modules\define-property\node_modules\is-descriptor\README.md = node_modules\define-property\node_modules\is-descriptor\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "del", "del", "{3A50A408-E3A0-468D-BBEA-BD167BF20DAD}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\del\index.js = node_modules\del\index.js
+		node_modules\del\license = node_modules\del\license
+		node_modules\del\package.json = node_modules\del\package.json
+		node_modules\del\readme.md = node_modules\del\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{3C01ED3D-D315-491D-9EE3-F6AECFEEA512}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "object-assign", "object-assign", "{B766AA55-3D1C-4F78-91B8-5ACD47BD178A}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\del\node_modules\object-assign\index.js = node_modules\del\node_modules\object-assign\index.js
+		node_modules\del\node_modules\object-assign\license = node_modules\del\node_modules\object-assign\license
+		node_modules\del\node_modules\object-assign\package.json = node_modules\del\node_modules\object-assign\package.json
+		node_modules\del\node_modules\object-assign\readme.md = node_modules\del\node_modules\object-assign\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deprecated", "deprecated", "{298C5F0D-1DE1-483E-A993-C8D57AAAFADD}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\deprecated\.npmignore = node_modules\deprecated\.npmignore
+		node_modules\deprecated\.travis.yml = node_modules\deprecated\.travis.yml
+		node_modules\deprecated\index.js = node_modules\deprecated\index.js
+		node_modules\deprecated\LICENSE = node_modules\deprecated\LICENSE
+		node_modules\deprecated\package.json = node_modules\deprecated\package.json
+		node_modules\deprecated\README.md = node_modules\deprecated\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3466C430-3962-43BE-B2C2-6E592AE34E29}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\deprecated\test\field.js = node_modules\deprecated\test\field.js
+		node_modules\deprecated\test\method.js = node_modules\deprecated\test\method.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "detect-file", "detect-file", "{1A250440-744A-4794-A95C-8E4B3AFCE90B}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\detect-file\index.js = node_modules\detect-file\index.js
+		node_modules\detect-file\LICENSE = node_modules\detect-file\LICENSE
+		node_modules\detect-file\package.json = node_modules\detect-file\package.json
+		node_modules\detect-file\README.md = node_modules\detect-file\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "detect-newline", "detect-newline", "{C2DA5786-3D06-4086-AF6D-E9B3BA12EDFE}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\detect-newline\index.js = node_modules\detect-newline\index.js
+		node_modules\detect-newline\license = node_modules\detect-newline\license
+		node_modules\detect-newline\package.json = node_modules\detect-newline\package.json
+		node_modules\detect-newline\readme.md = node_modules\detect-newline\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "diff", "diff", "{7B75B8F6-86A8-465F-9CA2-81A6FFF27A9D}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\diff\CONTRIBUTING.md = node_modules\diff\CONTRIBUTING.md
+		node_modules\diff\LICENSE = node_modules\diff\LICENSE
+		node_modules\diff\package.json = node_modules\diff\package.json
+		node_modules\diff\README.md = node_modules\diff\README.md
+		node_modules\diff\release-notes.md = node_modules\diff\release-notes.md
+		node_modules\diff\runtime.js = node_modules\diff\runtime.js
+		node_modules\diff\yarn.lock = node_modules\diff\yarn.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{E1B3F5CE-E37D-4050-AA19-58B98C063647}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\diff\dist\diff.js = node_modules\diff\dist\diff.js
+		node_modules\diff\dist\diff.min.js = node_modules\diff\dist\diff.min.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{7B9D38FC-791A-4200-A362-1740EA01FFBF}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\diff\lib\index.js = node_modules\diff\lib\index.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "convert", "convert", "{6F263A07-0D8A-4A48-A8B5-21E197483B4B}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\diff\lib\convert\dmp.js = node_modules\diff\lib\convert\dmp.js
+		node_modules\diff\lib\convert\xml.js = node_modules\diff\lib\convert\xml.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "diff", "diff", "{F0BC1F22-E32A-4848-945D-432782C1EE6A}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\diff\lib\diff\array.js = node_modules\diff\lib\diff\array.js
+		node_modules\diff\lib\diff\base.js = node_modules\diff\lib\diff\base.js
+		node_modules\diff\lib\diff\character.js = node_modules\diff\lib\diff\character.js
+		node_modules\diff\lib\diff\css.js = node_modules\diff\lib\diff\css.js
+		node_modules\diff\lib\diff\json.js = node_modules\diff\lib\diff\json.js
+		node_modules\diff\lib\diff\line.js = node_modules\diff\lib\diff\line.js
+		node_modules\diff\lib\diff\sentence.js = node_modules\diff\lib\diff\sentence.js
+		node_modules\diff\lib\diff\word.js = node_modules\diff\lib\diff\word.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "patch", "patch", "{81F43627-F6AB-4D7B-97CF-4CFCED6FBE4E}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\diff\lib\patch\apply.js = node_modules\diff\lib\patch\apply.js
+		node_modules\diff\lib\patch\create.js = node_modules\diff\lib\patch\create.js
+		node_modules\diff\lib\patch\merge.js = node_modules\diff\lib\patch\merge.js
+		node_modules\diff\lib\patch\parse.js = node_modules\diff\lib\patch\parse.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "util", "util", "{25C28EAF-D5B3-4596-A4A5-C1D2FD4AA930}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\diff\lib\util\array.js = node_modules\diff\lib\util\array.js
+		node_modules\diff\lib\util\distance-iterator.js = node_modules\diff\lib\util\distance-iterator.js
+		node_modules\diff\lib\util\params.js = node_modules\diff\lib\util\params.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doctrine", "doctrine", "{7E4C5745-8BC9-413F-822A-C7F6F545C340}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\doctrine\CHANGELOG.md = node_modules\doctrine\CHANGELOG.md
+		node_modules\doctrine\LICENSE = node_modules\doctrine\LICENSE
+		node_modules\doctrine\LICENSE.closure-compiler = node_modules\doctrine\LICENSE.closure-compiler
+		node_modules\doctrine\LICENSE.esprima = node_modules\doctrine\LICENSE.esprima
+		node_modules\doctrine\package.json = node_modules\doctrine\package.json
+		node_modules\doctrine\README.md = node_modules\doctrine\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{E7E6C111-D829-403A-9B56-22D092EC8576}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\doctrine\lib\doctrine.js = node_modules\doctrine\lib\doctrine.js
+		node_modules\doctrine\lib\typed.js = node_modules\doctrine\lib\typed.js
+		node_modules\doctrine\lib\utility.js = node_modules\doctrine\lib\utility.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "duplexer2", "duplexer2", "{E0BC301B-001E-493F-AAE3-99A314DC9BAD}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\duplexer2\.npmignore = node_modules\duplexer2\.npmignore
+		node_modules\duplexer2\.travis.yml = node_modules\duplexer2\.travis.yml
+		node_modules\duplexer2\example.js = node_modules\duplexer2\example.js
+		node_modules\duplexer2\index.js = node_modules\duplexer2\index.js
+		node_modules\duplexer2\LICENSE.md = node_modules\duplexer2\LICENSE.md
+		node_modules\duplexer2\package.json = node_modules\duplexer2\package.json
+		node_modules\duplexer2\README.md = node_modules\duplexer2\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3B42CBC2-73A4-4BA0-BE94-3CC4D84E421B}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\duplexer2\test\tests.js = node_modules\duplexer2\test\tests.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "duplexify", "duplexify", "{FDA0FE5F-429D-4CF1-BB07-BE0DFFCDC343}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\duplexify\.travis.yml = node_modules\duplexify\.travis.yml
+		node_modules\duplexify\example.js = node_modules\duplexify\example.js
+		node_modules\duplexify\index.js = node_modules\duplexify\index.js
+		node_modules\duplexify\LICENSE = node_modules\duplexify\LICENSE
+		node_modules\duplexify\package.json = node_modules\duplexify\package.json
+		node_modules\duplexify\README.md = node_modules\duplexify\README.md
+		node_modules\duplexify\test.js = node_modules\duplexify\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{DD39D8C0-E5F3-44FE-AD94-A25B5BDAD3F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "end-of-stream", "end-of-stream", "{79835D9A-A001-4B0A-8660-BAC847D1A5E2}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\duplexify\node_modules\end-of-stream\index.js = node_modules\duplexify\node_modules\end-of-stream\index.js
+		node_modules\duplexify\node_modules\end-of-stream\LICENSE = node_modules\duplexify\node_modules\end-of-stream\LICENSE
+		node_modules\duplexify\node_modules\end-of-stream\package.json = node_modules\duplexify\node_modules\end-of-stream\package.json
+		node_modules\duplexify\node_modules\end-of-stream\README.md = node_modules\duplexify\node_modules\end-of-stream\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "isarray", "isarray", "{2F06366D-6666-4EE1-A58F-11A903264D92}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\duplexify\node_modules\isarray\.npmignore = node_modules\duplexify\node_modules\isarray\.npmignore
+		node_modules\duplexify\node_modules\isarray\.travis.yml = node_modules\duplexify\node_modules\isarray\.travis.yml
+		node_modules\duplexify\node_modules\isarray\component.json = node_modules\duplexify\node_modules\isarray\component.json
+		node_modules\duplexify\node_modules\isarray\index.js = node_modules\duplexify\node_modules\isarray\index.js
+		node_modules\duplexify\node_modules\isarray\Makefile = node_modules\duplexify\node_modules\isarray\Makefile
+		node_modules\duplexify\node_modules\isarray\package.json = node_modules\duplexify\node_modules\isarray\package.json
+		node_modules\duplexify\node_modules\isarray\README.md = node_modules\duplexify\node_modules\isarray\README.md
+		node_modules\duplexify\node_modules\isarray\test.js = node_modules\duplexify\node_modules\isarray\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readable-stream", "readable-stream", "{BF5CB83D-5CAB-4127-95A4-311D5236F776}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\duplexify\node_modules\readable-stream\.travis.yml = node_modules\duplexify\node_modules\readable-stream\.travis.yml
+		node_modules\duplexify\node_modules\readable-stream\CONTRIBUTING.md = node_modules\duplexify\node_modules\readable-stream\CONTRIBUTING.md
+		node_modules\duplexify\node_modules\readable-stream\duplex-browser.js = node_modules\duplexify\node_modules\readable-stream\duplex-browser.js
+		node_modules\duplexify\node_modules\readable-stream\duplex.js = node_modules\duplexify\node_modules\readable-stream\duplex.js
+		node_modules\duplexify\node_modules\readable-stream\GOVERNANCE.md = node_modules\duplexify\node_modules\readable-stream\GOVERNANCE.md
+		node_modules\duplexify\node_modules\readable-stream\LICENSE = node_modules\duplexify\node_modules\readable-stream\LICENSE
+		node_modules\duplexify\node_modules\readable-stream\package.json = node_modules\duplexify\node_modules\readable-stream\package.json
+		node_modules\duplexify\node_modules\readable-stream\passthrough.js = node_modules\duplexify\node_modules\readable-stream\passthrough.js
+		node_modules\duplexify\node_modules\readable-stream\readable-browser.js = node_modules\duplexify\node_modules\readable-stream\readable-browser.js
+		node_modules\duplexify\node_modules\readable-stream\readable.js = node_modules\duplexify\node_modules\readable-stream\readable.js
+		node_modules\duplexify\node_modules\readable-stream\README.md = node_modules\duplexify\node_modules\readable-stream\README.md
+		node_modules\duplexify\node_modules\readable-stream\transform.js = node_modules\duplexify\node_modules\readable-stream\transform.js
+		node_modules\duplexify\node_modules\readable-stream\writable-browser.js = node_modules\duplexify\node_modules\readable-stream\writable-browser.js
+		node_modules\duplexify\node_modules\readable-stream\writable.js = node_modules\duplexify\node_modules\readable-stream\writable.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{A712AF8D-49F7-4D57-B5BC-62A6042B2B91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wg-meetings", "wg-meetings", "{32EB6694-17A3-4882-8B55-EC60F437225D}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\duplexify\node_modules\readable-stream\doc\wg-meetings\2015-01-30.md = node_modules\duplexify\node_modules\readable-stream\doc\wg-meetings\2015-01-30.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{015CEFEB-2D0E-4B19-B042-6343996BF0C4}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\duplexify\node_modules\readable-stream\lib\_stream_duplex.js = node_modules\duplexify\node_modules\readable-stream\lib\_stream_duplex.js
+		node_modules\duplexify\node_modules\readable-stream\lib\_stream_passthrough.js = node_modules\duplexify\node_modules\readable-stream\lib\_stream_passthrough.js
+		node_modules\duplexify\node_modules\readable-stream\lib\_stream_readable.js = node_modules\duplexify\node_modules\readable-stream\lib\_stream_readable.js
+		node_modules\duplexify\node_modules\readable-stream\lib\_stream_transform.js = node_modules\duplexify\node_modules\readable-stream\lib\_stream_transform.js
+		node_modules\duplexify\node_modules\readable-stream\lib\_stream_writable.js = node_modules\duplexify\node_modules\readable-stream\lib\_stream_writable.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "internal", "internal", "{DE95590A-A6A7-4FBC-AC31-44558DF70E2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "streams", "streams", "{C77AB3C3-FD0F-481F-9717-F00488034988}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\duplexify\node_modules\readable-stream\lib\internal\streams\BufferList.js = node_modules\duplexify\node_modules\readable-stream\lib\internal\streams\BufferList.js
+		node_modules\duplexify\node_modules\readable-stream\lib\internal\streams\destroy.js = node_modules\duplexify\node_modules\readable-stream\lib\internal\streams\destroy.js
+		node_modules\duplexify\node_modules\readable-stream\lib\internal\streams\stream-browser.js = node_modules\duplexify\node_modules\readable-stream\lib\internal\streams\stream-browser.js
+		node_modules\duplexify\node_modules\readable-stream\lib\internal\streams\stream.js = node_modules\duplexify\node_modules\readable-stream\lib\internal\streams\stream.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "string_decoder", "string_decoder", "{AADF524D-AD84-4A55-94DB-7374D6445461}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\duplexify\node_modules\string_decoder\.travis.yml = node_modules\duplexify\node_modules\string_decoder\.travis.yml
+		node_modules\duplexify\node_modules\string_decoder\LICENSE = node_modules\duplexify\node_modules\string_decoder\LICENSE
+		node_modules\duplexify\node_modules\string_decoder\package.json = node_modules\duplexify\node_modules\string_decoder\package.json
+		node_modules\duplexify\node_modules\string_decoder\README.md = node_modules\duplexify\node_modules\string_decoder\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{76DA4FA4-C34C-45A8-9D2D-CFE5A246C3B7}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\duplexify\node_modules\string_decoder\lib\string_decoder.js = node_modules\duplexify\node_modules\string_decoder\lib\string_decoder.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "end-of-stream", "end-of-stream", "{32666C07-7049-4519-A361-579A4A873A74}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\end-of-stream\.npmignore = node_modules\end-of-stream\.npmignore
+		node_modules\end-of-stream\index.js = node_modules\end-of-stream\index.js
+		node_modules\end-of-stream\package.json = node_modules\end-of-stream\package.json
+		node_modules\end-of-stream\README.md = node_modules\end-of-stream\README.md
+		node_modules\end-of-stream\test.js = node_modules\end-of-stream\test.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{0ACEF64C-5B07-4135-A1E4-C855213D21C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "once", "once", "{E2BF9523-F92B-4D66-95CD-4AE14F81402B}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\end-of-stream\node_modules\once\LICENSE = node_modules\end-of-stream\node_modules\once\LICENSE
+		node_modules\end-of-stream\node_modules\once\once.js = node_modules\end-of-stream\node_modules\once\once.js
+		node_modules\end-of-stream\node_modules\once\package.json = node_modules\end-of-stream\node_modules\once\package.json
+		node_modules\end-of-stream\node_modules\once\README.md = node_modules\end-of-stream\node_modules\once\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "error-ex", "error-ex", "{565D8843-6F88-4372-92D2-658C4B060BD5}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\error-ex\index.js = node_modules\error-ex\index.js
+		node_modules\error-ex\LICENSE = node_modules\error-ex\LICENSE
+		node_modules\error-ex\package.json = node_modules\error-ex\package.json
+		node_modules\error-ex\README.md = node_modules\error-ex\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "es5-ext", "es5-ext", "{FA3C683B-07F4-4A97-A466-CBF60DD9F930}"
+	ProjectSection(SolutionItems) = preProject
+		node_modules\es5-ext\.editorconfig = node_modules\es5-ext\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "array", "array", "{0FBFE662-DBE7-4132-9079-DD3D7FCDBFA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{16AADE02-5968-494F-BD75-9B31ABDEC403}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88AEC924-7524-4B36-9AC1-7D53CC7FCA88}"
+	ProjectSection(SolutionItems) = preProject
+		bin.js = bin.js
+		gulpfile.js = gulpfile.js
+		package-lock.json = package-lock.json
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Html5Viewer_2.10.1", "..\..\..\inetpub\wwwroot\Html5Viewer_2.10.1\", "{CC3E5044-76B5-4E84-AB8F-1A4D8002E12A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53579"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\inetpub\wwwroot\Html5Viewer_2.10.1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53579\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53579"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\inetpub\wwwroot\Html5Viewer_2.10.1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53579\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53579"
+		SlnRelativePath = "..\..\..\inetpub\wwwroot\Html5Viewer_2.10.1\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +1936,241 @@ Global
 		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3E5044-76B5-4E84-AB8F-1A4D8002E12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3E5044-76B5-4E84-AB8F-1A4D8002E12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3E5044-76B5-4E84-AB8F-1A4D8002E12A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3E5044-76B5-4E84-AB8F-1A4D8002E12A}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA65AA5F-0094-49F4-B1A3-621A7CB45E04} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{E6722974-1188-4BE6-9DC8-6BAAB3B1B821} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{DE0A23A1-5598-41C6-9285-9E9DE76D025D} = {E6722974-1188-4BE6-9DC8-6BAAB3B1B821}
+		{10F6EE03-FC74-44C4-961C-1C8A9B070B73} = {DE0A23A1-5598-41C6-9285-9E9DE76D025D}
+		{0E5A3E1D-890F-4BFA-A3A7-57E61769BE5D} = {E6722974-1188-4BE6-9DC8-6BAAB3B1B821}
+		{74A6B3BF-9F47-4BA0-A744-318C396BBDEB} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{D25BDD90-AF09-4915-AF6A-C9858D4EBEED} = {74A6B3BF-9F47-4BA0-A744-318C396BBDEB}
+		{378D0B62-10C7-444F-841A-FCA030C14D49} = {74A6B3BF-9F47-4BA0-A744-318C396BBDEB}
+		{78914D26-F6B4-4CE8-9C62-D1A4F02244F1} = {378D0B62-10C7-444F-841A-FCA030C14D49}
+		{9C212333-4032-4EAA-8EF4-F88C1F01659E} = {378D0B62-10C7-444F-841A-FCA030C14D49}
+		{32A3BBCC-2FA0-4B54-87B4-D087E30525C9} = {378D0B62-10C7-444F-841A-FCA030C14D49}
+		{74E4D1DB-A4BC-45CC-8A48-4A755E217D90} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{F85A88DB-4D60-42B7-8765-017C43DC3B87} = {74E4D1DB-A4BC-45CC-8A48-4A755E217D90}
+		{603DC06B-677C-4AA6-B2A9-8F878D416003} = {74E4D1DB-A4BC-45CC-8A48-4A755E217D90}
+		{5811BDD6-3D0E-4AA9-AFC7-43B77D471F47} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{0D3DEFE8-1B48-4A12-8BFC-9CCE528927B4} = {5811BDD6-3D0E-4AA9-AFC7-43B77D471F47}
+		{FBBB7BF7-D97C-4E9C-B945-5C411DBAB7C3} = {0D3DEFE8-1B48-4A12-8BFC-9CCE528927B4}
+		{1ECE6B83-9F3C-492D-86DE-F905B262ADA0} = {0D3DEFE8-1B48-4A12-8BFC-9CCE528927B4}
+		{A3E9A5F2-9263-40F6-89C5-D06E3543CAD9} = {1ECE6B83-9F3C-492D-86DE-F905B262ADA0}
+		{DA84DDE1-F7B4-4FBE-ACC4-B5D12F8CA294} = {1ECE6B83-9F3C-492D-86DE-F905B262ADA0}
+		{4E6FCFA5-D911-4869-A842-325FCCD51357} = {1ECE6B83-9F3C-492D-86DE-F905B262ADA0}
+		{77CBD86A-D0C8-4C0F-8697-604CCC57BF59} = {1ECE6B83-9F3C-492D-86DE-F905B262ADA0}
+		{7443EDA8-F8A1-45E3-8E36-E55533D9EE63} = {77CBD86A-D0C8-4C0F-8697-604CCC57BF59}
+		{0157A703-BFB8-46FD-8CFE-510FD1A91953} = {77CBD86A-D0C8-4C0F-8697-604CCC57BF59}
+		{0BD9DBC6-0CF2-46B3-B5E0-1EB6375D986E} = {77CBD86A-D0C8-4C0F-8697-604CCC57BF59}
+		{0B23B1C4-DD87-4990-A1D1-3E5A1CA359EE} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{151A576D-8D3A-45A1-A470-4190FABE787C} = {0B23B1C4-DD87-4990-A1D1-3E5A1CA359EE}
+		{116A7396-70C9-44F7-9F7C-6AEBA03659BD} = {0B23B1C4-DD87-4990-A1D1-3E5A1CA359EE}
+		{CE15016E-4426-455E-AD44-9F0D10246DFB} = {116A7396-70C9-44F7-9F7C-6AEBA03659BD}
+		{877D6F60-0253-49B2-998E-2F2DAD738F5B} = {116A7396-70C9-44F7-9F7C-6AEBA03659BD}
+		{72864141-8650-4B61-A680-F7CF69C58C1B} = {877D6F60-0253-49B2-998E-2F2DAD738F5B}
+		{5F571E88-23AC-49CC-8089-CDA34CF2BC8D} = {116A7396-70C9-44F7-9F7C-6AEBA03659BD}
+		{E9C3ACD0-6F14-4E62-A9E5-D51050953212} = {116A7396-70C9-44F7-9F7C-6AEBA03659BD}
+		{945E52BE-2CC9-4576-8DFF-EED7F448778D} = {0B23B1C4-DD87-4990-A1D1-3E5A1CA359EE}
+		{29B18DD2-5FEB-496E-B5B3-B3856AFF529A} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{C4466719-ADED-455A-8129-207B2EBD6EE5} = {29B18DD2-5FEB-496E-B5B3-B3856AFF529A}
+		{6B6E0848-68D3-42CB-AA32-C4293636AC11} = {C4466719-ADED-455A-8129-207B2EBD6EE5}
+		{63D34C94-8FBD-47EC-8459-792E157AA4B5} = {C4466719-ADED-455A-8129-207B2EBD6EE5}
+		{8E69C209-409A-42A0-BDCC-8716A635E424} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{4C3BC95E-741F-48B8-98CE-9AF72FE3F4C1} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{CA0826EE-FB85-4500-9549-34D12CC63C47} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{1BC8E8ED-D6A5-4989-9ABF-25D8E1942C7E} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{6381C1FC-A8EC-4F5B-8BC1-A71DA10FA1EE} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{46017145-A443-4DB7-B5DA-AC1F3A1C9D65} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{43A36632-F6D1-4183-9173-B7AE8A5CC6A2} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{F2ECA604-DC1F-4E92-AC1B-01E92A0DF17F} = {43A36632-F6D1-4183-9173-B7AE8A5CC6A2}
+		{719497B3-F511-47ED-8ACB-A0764ACE9A96} = {43A36632-F6D1-4183-9173-B7AE8A5CC6A2}
+		{11FFFD8D-38A1-4F45-85E9-B934329F825B} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{7113ED91-C95A-4540-A5E2-65EC10F86008} = {11FFFD8D-38A1-4F45-85E9-B934329F825B}
+		{5127B43B-8AD4-451F-B025-D9F67F51352C} = {7113ED91-C95A-4540-A5E2-65EC10F86008}
+		{E0CA05CE-5AD2-4ECA-A270-E2DDE0D56344} = {5127B43B-8AD4-451F-B025-D9F67F51352C}
+		{E0022756-7EA2-481C-9F02-4957C2DEAE5C} = {5127B43B-8AD4-451F-B025-D9F67F51352C}
+		{52C34623-EF4E-4C18-9B10-2B3AFE8A35B6} = {7113ED91-C95A-4540-A5E2-65EC10F86008}
+		{D4DA940D-458D-4FCC-AA4A-D5ABCF0A562C} = {7113ED91-C95A-4540-A5E2-65EC10F86008}
+		{BCAAFE4B-B56D-4148-B9B2-FEB46A2C2F51} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{56FE22E1-3950-4AF5-8E5B-9819958FE7AB} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{C6CD510A-A6D4-4794-8C6C-2EC371E7B591} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{6DC0BFF5-478B-4CDB-8EC6-793B2BB48B09} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{08EC19EE-3F01-4DD7-97D0-127D2190929A} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{25D813E8-C983-4807-9CDB-77765F424EF9} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{971E24C7-B300-4E87-B76F-C55D99455D48} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{3B88A958-5F97-49D4-B6D3-6267F45CA3EE} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{26B2C18C-8663-4CE9-A4C8-56FC9B034F1B} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{094385AD-754B-4945-9B21-0480906B3712} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{392AB536-5227-4533-825F-FA22A69A9E6C} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{C82EA1C1-FBF2-489E-9782-4CD12091F537} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{050F46F7-6CFA-4ABF-AB08-7456A38B26F8} = {C82EA1C1-FBF2-489E-9782-4CD12091F537}
+		{602FE4A4-4AE8-4212-B598-B14C15A55F54} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{1782049C-C022-4304-A858-E9D1595B049A} = {602FE4A4-4AE8-4212-B598-B14C15A55F54}
+		{8B7BAB6F-7590-459B-8B3D-9651E6BA7F11} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{D7168D08-CFE2-4C0F-AF32-1859675D177B} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{7E62AC96-E687-4FBE-BF66-64AACB49E4AB} = {D7168D08-CFE2-4C0F-AF32-1859675D177B}
+		{95878FED-7AFD-4BCC-B897-22A2204D6B93} = {7E62AC96-E687-4FBE-BF66-64AACB49E4AB}
+		{5A6EF070-351D-48B8-851B-841D0E6E3E55} = {7E62AC96-E687-4FBE-BF66-64AACB49E4AB}
+		{94986FB1-B194-4685-BBB2-D750486E25FC} = {7E62AC96-E687-4FBE-BF66-64AACB49E4AB}
+		{EF1469B8-427B-494C-AB45-C83EE97D7375} = {7E62AC96-E687-4FBE-BF66-64AACB49E4AB}
+		{99781663-734E-413E-BC39-0C2DB718C55D} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{8A72BFD5-1171-4FE1-AAE9-67AEFBADD28A} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{AC4E49C6-0335-415F-82C6-29E7EE96F7D1} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{739F5E12-7700-48DF-BE7F-F13E186E5292} = {AC4E49C6-0335-415F-82C6-29E7EE96F7D1}
+		{CFB7EE9C-749F-4E74-A8C5-A9BEF1B6EBC6} = {AC4E49C6-0335-415F-82C6-29E7EE96F7D1}
+		{A0B37CE6-D08E-4130-A98A-59A9A05363DB} = {CFB7EE9C-749F-4E74-A8C5-A9BEF1B6EBC6}
+		{8064A4F3-EDCD-4ACC-84EF-B9C17DE44B82} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{C6064C2B-940D-4405-8150-1D6A4097C57D} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{AB647ADA-50B4-4869-B06F-DCB81739AEE5} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{337C975E-0B47-4D72-AC31-CB77BBA72A29} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{8400472E-6ED6-422A-B63A-87421C774FE4} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{83DE162E-7266-4179-A4AA-558CC5751767} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{6225E23E-B9BC-4424-A26A-E3EF9A052F94} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{32D95D2D-DF8C-4F1A-B46F-8F05D3CBFFBC} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{178E92EE-2460-47D9-9B47-AB9720DC7114} = {32D95D2D-DF8C-4F1A-B46F-8F05D3CBFFBC}
+		{7BB8AD48-EB44-4C9A-81BC-54C2D70C9EF0} = {32D95D2D-DF8C-4F1A-B46F-8F05D3CBFFBC}
+		{7BE4B7C1-7B38-4C5B-99CC-CBE0C075D221} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{65D5B5D0-DFBF-4522-A75F-C5CC542A669D} = {7BE4B7C1-7B38-4C5B-99CC-CBE0C075D221}
+		{41770956-5624-435D-910D-1748618B325F} = {65D5B5D0-DFBF-4522-A75F-C5CC542A669D}
+		{9CD8F2DD-507F-4717-AED7-8E91874932C7} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{D75471CC-3D8F-453A-8FA1-20BAA3692001} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{971B99DF-ED3A-48F2-8FEA-7BD1C76B2110} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{250896F8-F4A9-4E6D-9A8C-2BA22A402858} = {971B99DF-ED3A-48F2-8FEA-7BD1C76B2110}
+		{8D1173CD-A2FF-459E-99B6-9BEAFDDA8D5F} = {250896F8-F4A9-4E6D-9A8C-2BA22A402858}
+		{EF823665-EA30-42CC-8C53-101ED3F80689} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{C107DD8F-CC75-4905-ADE9-AB8A495A07FF} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{74CA0696-1E0A-425F-A941-0FA28D6147DD} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{973701A3-B76A-4C47-B333-94A92CF8F79C} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{D25767DF-BFA2-4914-BA4F-73D21E284D27} = {973701A3-B76A-4C47-B333-94A92CF8F79C}
+		{AC55C044-3EF7-4032-8DBD-F034C5E91940} = {D25767DF-BFA2-4914-BA4F-73D21E284D27}
+		{27E3BB6A-9E6B-4C42-9E3E-AABD27CCE4A1} = {D25767DF-BFA2-4914-BA4F-73D21E284D27}
+		{3DADC1A9-16B7-4309-8C6F-4F1E96C25ADE} = {27E3BB6A-9E6B-4C42-9E3E-AABD27CCE4A1}
+		{BA9B5A0D-0BB3-4BB4-BFDA-9E51BE7734A3} = {3DADC1A9-16B7-4309-8C6F-4F1E96C25ADE}
+		{79D051C7-AE86-4461-82FA-4BEF91D32546} = {27E3BB6A-9E6B-4C42-9E3E-AABD27CCE4A1}
+		{2CDFED54-6D05-4501-B85E-F897102A05E8} = {79D051C7-AE86-4461-82FA-4BEF91D32546}
+		{234D6178-9337-4B7C-AA1E-1C7647DA77F2} = {2CDFED54-6D05-4501-B85E-F897102A05E8}
+		{09B02DB4-C9C3-4296-99F5-474A01A39F83} = {D25767DF-BFA2-4914-BA4F-73D21E284D27}
+		{B7178CAF-F797-4158-8837-C94034556B42} = {09B02DB4-C9C3-4296-99F5-474A01A39F83}
+		{BEA4DA9D-E1A9-441F-9A85-5CDF8C3A3CFB} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{A9D7A921-E149-4137-B47B-F488017683C7} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{EDCF2CB7-E6EB-4775-A824-5109F18B8789} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{5FAEB505-8CB9-45A0-8A3B-2145E5BD8F1B} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{51DD6E5B-B200-40E2-96DE-B6EA60D75B9D} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{C012B023-165D-4D39-82ED-15B2EA9ADDD6} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{E39C07E9-6400-4418-AFDC-AC190591A2E2} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{25081BF3-3C80-45F2-A069-66D8C775EAAF} = {E39C07E9-6400-4418-AFDC-AC190591A2E2}
+		{FCA268BB-9211-404E-8305-895B5A01404B} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{AFCD54B6-E78D-4C10-90BA-6DDD8135468F} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{C5F78859-4239-479E-80AA-3CBE42509348} = {AFCD54B6-E78D-4C10-90BA-6DDD8135468F}
+		{A2004251-16E3-4B04-82DD-E3454E3034AE} = {AFCD54B6-E78D-4C10-90BA-6DDD8135468F}
+		{4E002A5A-4EC1-4A17-9346-D3325008D9B8} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{94822B64-0EBF-48DC-A68D-0929EFF60E54} = {4E002A5A-4EC1-4A17-9346-D3325008D9B8}
+		{D8EFDFA2-77C5-4C5D-A9E3-28D0D1FF2F18} = {94822B64-0EBF-48DC-A68D-0929EFF60E54}
+		{1C46820B-1703-4E9F-A242-E36FDA5C1503} = {94822B64-0EBF-48DC-A68D-0929EFF60E54}
+		{11C0ABF1-B984-40E3-9147-BF6F976E299A} = {1C46820B-1703-4E9F-A242-E36FDA5C1503}
+		{DC912B09-3771-46D3-93FD-7B25CBEFA53C} = {11C0ABF1-B984-40E3-9147-BF6F976E299A}
+		{024E02BB-A860-48EE-9291-878AD7FB3678} = {1C46820B-1703-4E9F-A242-E36FDA5C1503}
+		{AF77A06B-F3B7-4045-9F7C-6F84C1AE8D2D} = {024E02BB-A860-48EE-9291-878AD7FB3678}
+		{60839B59-4D9C-4E48-836B-D68C37B802A2} = {AF77A06B-F3B7-4045-9F7C-6F84C1AE8D2D}
+		{501DFCAD-50AF-4955-92A9-A1089AA78C33} = {94822B64-0EBF-48DC-A68D-0929EFF60E54}
+		{3636D12C-8D88-4FE0-9615-85871D44A439} = {501DFCAD-50AF-4955-92A9-A1089AA78C33}
+		{87117D89-9363-4DE8-A026-2DE06A706F08} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{8EFB1D43-1E85-479C-92EB-526BA229E74E} = {87117D89-9363-4DE8-A026-2DE06A706F08}
+		{B546917D-6A69-4CCF-9FAB-06214925E7EB} = {8EFB1D43-1E85-479C-92EB-526BA229E74E}
+		{754DACFF-BFA6-4010-822C-A988301A11BA} = {B546917D-6A69-4CCF-9FAB-06214925E7EB}
+		{AB932AAB-33BA-429C-A33E-A7AE9F4199D4} = {B546917D-6A69-4CCF-9FAB-06214925E7EB}
+		{7BA97514-2DF6-430B-8913-57BEF4961827} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{0893C69A-DA52-46E7-B6FB-0BCF473E1EBA} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{CD909AC4-A17B-4299-B511-B54E54FAFEAF} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{59E54BE1-8B05-477A-8E8A-4C6000015653} = {CD909AC4-A17B-4299-B511-B54E54FAFEAF}
+		{EB8907B5-C432-43F4-A93D-2ECED8B86A3D} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{1F8C791C-B9C9-414D-B882-8F22B7AD158D} = {EB8907B5-C432-43F4-A93D-2ECED8B86A3D}
+		{899497CD-58E0-4F56-B2F8-276FB8C92C46} = {1F8C791C-B9C9-414D-B882-8F22B7AD158D}
+		{4C799834-D234-49CC-92C2-15734C2DC704} = {EB8907B5-C432-43F4-A93D-2ECED8B86A3D}
+		{0053C072-6E53-4300-BE17-5E7DE4A0BC91} = {4C799834-D234-49CC-92C2-15734C2DC704}
+		{A56A22B6-EF77-4DEB-9C4D-5D2956F03BF7} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{7B73B23E-9506-40D5-87DA-EA7C91E41874} = {A56A22B6-EF77-4DEB-9C4D-5D2956F03BF7}
+		{7559FC5A-E295-4BE6-AC32-CC0A096121E3} = {7B73B23E-9506-40D5-87DA-EA7C91E41874}
+		{2477A7E1-BF63-4021-91B2-63B08C4085A9} = {7B73B23E-9506-40D5-87DA-EA7C91E41874}
+		{80A81C68-1AD0-4FDA-9A31-377EDCFFA0A4} = {A56A22B6-EF77-4DEB-9C4D-5D2956F03BF7}
+		{2BB3757C-E3F8-4AB2-91E4-9FD43E4980C4} = {80A81C68-1AD0-4FDA-9A31-377EDCFFA0A4}
+		{0FE68E16-FF21-496C-BE4B-FDCB1730298A} = {2BB3757C-E3F8-4AB2-91E4-9FD43E4980C4}
+		{6F938D4A-1346-487F-84B0-79F47DDB1DEF} = {2BB3757C-E3F8-4AB2-91E4-9FD43E4980C4}
+		{23A698A3-6AFC-4D32-AA54-46C479C32DDD} = {6F938D4A-1346-487F-84B0-79F47DDB1DEF}
+		{537B5511-B72C-457F-84CE-92DFF514165F} = {2BB3757C-E3F8-4AB2-91E4-9FD43E4980C4}
+		{74A18FB0-13A0-4603-85E3-6482AF581357} = {537B5511-B72C-457F-84CE-92DFF514165F}
+		{2EF3F691-92E7-4ADF-AFE2-EC15F66D9964} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{D6DD4469-BE7D-4274-8F9E-4C3B23FCD8D2} = {2EF3F691-92E7-4ADF-AFE2-EC15F66D9964}
+		{A35BD9A0-D2D7-4FA0-8773-D10E37374675} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{CBFE89C0-AC52-4923-9A61-71AAA73E3CA7} = {A35BD9A0-D2D7-4FA0-8773-D10E37374675}
+		{FEECD578-A8CE-413B-888F-E3B81F7B682D} = {CBFE89C0-AC52-4923-9A61-71AAA73E3CA7}
+		{45094370-1EF3-49E5-B125-1A3FF06ED3EF} = {CBFE89C0-AC52-4923-9A61-71AAA73E3CA7}
+		{4EB07F43-93C9-437E-85F9-5DBBCC93CF6C} = {45094370-1EF3-49E5-B125-1A3FF06ED3EF}
+		{5A572BF7-19B7-4B03-9536-22EFB08F4442} = {A35BD9A0-D2D7-4FA0-8773-D10E37374675}
+		{A797C72C-176C-4925-8354-D7DB4174EEC6} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{C5DAC4A3-3AE1-48A3-95B9-85777E97C92E} = {A797C72C-176C-4925-8354-D7DB4174EEC6}
+		{466A5E00-FAC7-42F3-A0BE-14F0F89BF262} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{76AB462D-EE9D-4C4B-92C9-8B3D8AEC2DBA} = {466A5E00-FAC7-42F3-A0BE-14F0F89BF262}
+		{33A3B3C4-F80C-4DF2-95D3-87692602FC22} = {76AB462D-EE9D-4C4B-92C9-8B3D8AEC2DBA}
+		{56C93B08-DA03-409E-AC12-5610A62F2FA0} = {33A3B3C4-F80C-4DF2-95D3-87692602FC22}
+		{73CD3C7C-ED6D-4995-8490-0E584EF6F817} = {76AB462D-EE9D-4C4B-92C9-8B3D8AEC2DBA}
+		{A653E634-7D78-42FE-8D98-1D6E32BDF979} = {466A5E00-FAC7-42F3-A0BE-14F0F89BF262}
+		{7F01576D-1878-4C97-8764-0F84A8972B6F} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{292576BE-5CCA-4A88-9A0C-0A6420F50BC7} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{4AC1D6ED-C87C-4872-BF3B-728E08AF910B} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{FC72E540-F506-4E1B-8F03-9E89BF85EDE8} = {4AC1D6ED-C87C-4872-BF3B-728E08AF910B}
+		{A773034B-BB19-409C-83A9-077109EE8FFE} = {4AC1D6ED-C87C-4872-BF3B-728E08AF910B}
+		{1FF206F0-C2D1-437B-B278-236B02208B1C} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{F92E6CF0-AF0E-4E2D-914D-F04AA74CDCA1} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{CF949543-F6F8-45B3-A418-9BEE301BE662} = {F92E6CF0-AF0E-4E2D-914D-F04AA74CDCA1}
+		{C5CBF844-4E47-45F1-A576-C3CCD694CB11} = {CF949543-F6F8-45B3-A418-9BEE301BE662}
+		{55906F31-9E89-4357-A3E4-00C554B2F0CA} = {CF949543-F6F8-45B3-A418-9BEE301BE662}
+		{39543EB5-6FFA-4FC6-B46B-C9D514050287} = {CF949543-F6F8-45B3-A418-9BEE301BE662}
+		{3A50A408-E3A0-468D-BBEA-BD167BF20DAD} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{3C01ED3D-D315-491D-9EE3-F6AECFEEA512} = {3A50A408-E3A0-468D-BBEA-BD167BF20DAD}
+		{B766AA55-3D1C-4F78-91B8-5ACD47BD178A} = {3C01ED3D-D315-491D-9EE3-F6AECFEEA512}
+		{298C5F0D-1DE1-483E-A993-C8D57AAAFADD} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{3466C430-3962-43BE-B2C2-6E592AE34E29} = {298C5F0D-1DE1-483E-A993-C8D57AAAFADD}
+		{1A250440-744A-4794-A95C-8E4B3AFCE90B} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{C2DA5786-3D06-4086-AF6D-E9B3BA12EDFE} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{7B75B8F6-86A8-465F-9CA2-81A6FFF27A9D} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{E1B3F5CE-E37D-4050-AA19-58B98C063647} = {7B75B8F6-86A8-465F-9CA2-81A6FFF27A9D}
+		{7B9D38FC-791A-4200-A362-1740EA01FFBF} = {7B75B8F6-86A8-465F-9CA2-81A6FFF27A9D}
+		{6F263A07-0D8A-4A48-A8B5-21E197483B4B} = {7B9D38FC-791A-4200-A362-1740EA01FFBF}
+		{F0BC1F22-E32A-4848-945D-432782C1EE6A} = {7B9D38FC-791A-4200-A362-1740EA01FFBF}
+		{81F43627-F6AB-4D7B-97CF-4CFCED6FBE4E} = {7B9D38FC-791A-4200-A362-1740EA01FFBF}
+		{25C28EAF-D5B3-4596-A4A5-C1D2FD4AA930} = {7B9D38FC-791A-4200-A362-1740EA01FFBF}
+		{7E4C5745-8BC9-413F-822A-C7F6F545C340} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{E7E6C111-D829-403A-9B56-22D092EC8576} = {7E4C5745-8BC9-413F-822A-C7F6F545C340}
+		{E0BC301B-001E-493F-AAE3-99A314DC9BAD} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{3B42CBC2-73A4-4BA0-BE94-3CC4D84E421B} = {E0BC301B-001E-493F-AAE3-99A314DC9BAD}
+		{FDA0FE5F-429D-4CF1-BB07-BE0DFFCDC343} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{DD39D8C0-E5F3-44FE-AD94-A25B5BDAD3F0} = {FDA0FE5F-429D-4CF1-BB07-BE0DFFCDC343}
+		{79835D9A-A001-4B0A-8660-BAC847D1A5E2} = {DD39D8C0-E5F3-44FE-AD94-A25B5BDAD3F0}
+		{2F06366D-6666-4EE1-A58F-11A903264D92} = {DD39D8C0-E5F3-44FE-AD94-A25B5BDAD3F0}
+		{BF5CB83D-5CAB-4127-95A4-311D5236F776} = {DD39D8C0-E5F3-44FE-AD94-A25B5BDAD3F0}
+		{A712AF8D-49F7-4D57-B5BC-62A6042B2B91} = {BF5CB83D-5CAB-4127-95A4-311D5236F776}
+		{32EB6694-17A3-4882-8B55-EC60F437225D} = {A712AF8D-49F7-4D57-B5BC-62A6042B2B91}
+		{015CEFEB-2D0E-4B19-B042-6343996BF0C4} = {BF5CB83D-5CAB-4127-95A4-311D5236F776}
+		{DE95590A-A6A7-4FBC-AC31-44558DF70E2F} = {015CEFEB-2D0E-4B19-B042-6343996BF0C4}
+		{C77AB3C3-FD0F-481F-9717-F00488034988} = {DE95590A-A6A7-4FBC-AC31-44558DF70E2F}
+		{AADF524D-AD84-4A55-94DB-7374D6445461} = {DD39D8C0-E5F3-44FE-AD94-A25B5BDAD3F0}
+		{76DA4FA4-C34C-45A8-9D2D-CFE5A246C3B7} = {AADF524D-AD84-4A55-94DB-7374D6445461}
+		{32666C07-7049-4519-A361-579A4A873A74} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{0ACEF64C-5B07-4135-A1E4-C855213D21C2} = {32666C07-7049-4519-A361-579A4A873A74}
+		{E2BF9523-F92B-4D66-95CD-4AE14F81402B} = {0ACEF64C-5B07-4135-A1E4-C855213D21C2}
+		{565D8843-6F88-4372-92D2-658C4B060BD5} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{FA3C683B-07F4-4A97-A466-CBF60DD9F930} = {ED6EF658-EBE0-46D8-822A-F2BBB9E1DBD3}
+		{0FBFE662-DBE7-4132-9079-DD3D7FCDBFA1} = {FA3C683B-07F4-4A97-A466-CBF60DD9F930}
+		{16AADE02-5968-494F-BD75-9B31ABDEC403} = {0FBFE662-DBE7-4132-9079-DD3D7FCDBFA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE8F44F0-C2BD-4B68-8977-DD51D2D851C7}
