@@ -27,7 +27,7 @@
   },
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "\"gulp --outFile  C:\\inetpub\\wwwroot\\Html5Viewer_2.10.1\\Resources\\Compiled\\CustomModule.js"
+    "build": "\"gulp --outFile  C:\\inetpub\\wwwroot\\Html5Viewer_2.10.1\\Resources\\Compiled\\InteractWithWorkflow.js"
   },
   "bin": {
     "gvh-bundle": "./bin.js"

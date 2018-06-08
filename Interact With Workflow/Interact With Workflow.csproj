@@ -80,6 +80,24 @@
     <TypeScriptCompile Include="Modules\InteractWithWorkflow\InteractWithWorkflowViewModel.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\..\..\..\Program Files %28x86%29\Latitude Geographics\Geocortex Essentials\Default\REST Elements\Sites\myWorkflowSite\Viewers\Interact_with_Workflow\VirtualDirectory\Resources\Config\Default\Desktop.json.js">
+      <Link>Resources\Config\Default\Desktop.json.js</Link>
+    </Content>
+    <Content Include="..\..\..\..\Program Files %28x86%29\Latitude Geographics\Geocortex Essentials\Default\REST Elements\Sites\myWorkflowSite\Viewers\Interact_with_Workflow\VirtualDirectory\Resources\Config\Default\Desktop.Preview.json.js">
+      <Link>Resources\Config\Default\Desktop.Preview.json.js</Link>
+    </Content>
+    <Content Include="..\..\..\..\Program Files %28x86%29\Latitude Geographics\Geocortex Essentials\Default\REST Elements\Sites\myWorkflowSite\Viewers\Interact_with_Workflow\VirtualDirectory\Resources\Config\Default\Handheld.json.js">
+      <Link>Resources\Config\Default\Handheld.json.js</Link>
+    </Content>
+    <Content Include="..\..\..\..\Program Files %28x86%29\Latitude Geographics\Geocortex Essentials\Default\REST Elements\Sites\myWorkflowSite\Viewers\Interact_with_Workflow\VirtualDirectory\Resources\Config\Default\Handheld.Preview.json.js">
+      <Link>Resources\Config\Default\Handheld.Preview.json.js</Link>
+    </Content>
+    <Content Include="..\..\..\..\Program Files %28x86%29\Latitude Geographics\Geocortex Essentials\Default\REST Elements\Sites\myWorkflowSite\Viewers\Interact_with_Workflow\VirtualDirectory\Resources\Config\Default\Tablet.json.js">
+      <Link>Resources\Config\Default\Tablet.json.js</Link>
+    </Content>
+    <Content Include="..\..\..\..\Program Files %28x86%29\Latitude Geographics\Geocortex Essentials\Default\REST Elements\Sites\myWorkflowSite\Viewers\Interact_with_Workflow\VirtualDirectory\Resources\Config\Default\Tablet.Preview.json.js">
+      <Link>Resources\Config\Default\Tablet.Preview.json.js</Link>
+    </Content>
     <Content Include="Modules\InteractWithWorkflow\InteractWithWorkflow.css" />
     <Content Include="Modules\InteractWithWorkflow\InteractWithWorkflow.html" />
   </ItemGroup>
