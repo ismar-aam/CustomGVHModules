@@ -1896,12 +1896,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{16AADE02-5968-494F-BD75-9B31ABDEC403}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88AEC924-7524-4B36-9AC1-7D53CC7FCA88}"
-	ProjectSection(SolutionItems) = preProject
-		bin.js = bin.js
-		gulpfile.js = gulpfile.js
-		package-lock.json = package-lock.json
-		package.json = package.json
-	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Html5Viewer_2.10.1", "..\..\..\inetpub\wwwroot\Html5Viewer_2.10.1\", "{CC3E5044-76B5-4E84-AB8F-1A4D8002E12A}"
 	ProjectSection(WebsiteProperties) = preProject

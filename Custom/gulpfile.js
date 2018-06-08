@@ -11,7 +11,7 @@ const mkdirp = require("mkdirp");
 const gutil = require("gulp-util");
 const concat = require("gulp-concat");
 const ts = require("gulp-typescript");
-const tsVersion = require("typescript").version;
+const tsVersion = "2.3.4";//require("typescript").version;
 const merge = require("merge2");
 const through = require("through2");
 const uglifyJS = require("uglify-js");
@@ -26,7 +26,7 @@ const namespace = argv.namespace || "geocortex/custom";
  * Going forward we won't recommend using this, but we need to support older markup paths such as 'Mapping/', etc.
  */
 const markupNamespace = argv.markupNamespace || namespace;
-const sourcePath = argv.sourceDir || "./Custom/Modules/InteractWithWorkflow";
+const sourcePath = argv.sourceDir || "./Modules/InteractWithWorkflow";
 const additionalLanguagePath = argv.languagePath;
 const outputLanguageFile = argv.outLanguageFile;
 const outputDeclarationFile = argv.outDeclarationFile;

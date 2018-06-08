@@ -98,8 +98,14 @@
     <Content Include="..\..\..\..\Program Files %28x86%29\Latitude Geographics\Geocortex Essentials\Default\REST Elements\Sites\myWorkflowSite\Viewers\Interact_with_Workflow\VirtualDirectory\Resources\Config\Default\Tablet.Preview.json.js">
       <Link>Resources\Config\Default\Tablet.Preview.json.js</Link>
     </Content>
+    <Content Include="bin.js" />
+    <Content Include="gulpfile.js" />
     <Content Include="Modules\InteractWithWorkflow\InteractWithWorkflow.css" />
     <Content Include="Modules\InteractWithWorkflow\InteractWithWorkflow.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="package-lock.json" />
+    <Content Include="package.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
