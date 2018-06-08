@@ -26,7 +26,7 @@ const namespace = argv.namespace || "geocortex/custom";
  * Going forward we won't recommend using this, but we need to support older markup paths such as 'Mapping/', etc.
  */
 const markupNamespace = argv.markupNamespace || namespace;
-const sourcePath = argv.sourceDir || "./Interact With Workflow/Modules/InteractWithWorkflow";
+const sourcePath = argv.sourceDir || "./Custom/Modules/InteractWithWorkflow";
 const additionalLanguagePath = argv.languagePath;
 const outputLanguageFile = argv.outLanguageFile;
 const outputDeclarationFile = argv.outDeclarationFile;
